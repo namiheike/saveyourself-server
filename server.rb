@@ -7,7 +7,10 @@ require 'multi_json'
 require 'net/http'
 require 'uri'
 
-class SaveYourSelfAPIService < Goliath::API
+# class API < Grape:: API
+# end
+
+class Server < Goliath::API
   use Goliath::Rack::Tracer             # log trace statistics
   use Goliath::Rack::DefaultMimeType    # cleanup accepted media types
   use Goliath::Rack::Render, 'json'     # auto-negotiate response format
@@ -54,7 +57,8 @@ class SaveYourSelfAPIService < Goliath::API
   end
 
   def get_nearest_shelter(x, y)
-        
+    moped[:cities].find.first
+    # TODO change to non-blocking mongo driver
   end
 
   def response(env)
