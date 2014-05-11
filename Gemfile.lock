@@ -5,6 +5,17 @@ GEM
     async-rack (0.5.1)
       rack (~> 1.1)
     bson (1.10.0)
+    bson_ext (1.10.0)
+      bson (~> 1.10.0)
+    cookiejar (0.3.2)
+    em-http-request (1.1.1)
+      addressable (>= 2.3.4)
+      cookiejar
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0.beta.2)
+    em-socksify (0.3.0)
+      eventmachine (>= 1.0.0.beta.4)
     em-synchrony (1.0.3)
       eventmachine (>= 1.0.0.beta.1)
     em-websocket (0.3.8)
@@ -39,6 +50,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bson_ext
+  em-http-request
   goliath
   mongo
   moped

@@ -4,10 +4,10 @@
 require 'goliath'
 # require 'goliath/plugins/latency'
 require 'multi_json'
-require 'net/http'
-require 'uri'
+require 'em-synchrony/em-http'
 
 # class API < Grape:: API
+   # https://gist.github.com/lgs/3048953
 # end
 
 class Server < Goliath::API
@@ -36,29 +36,19 @@ class Server < Goliath::API
     # }
     # THIS API GOT 101 ERROR
 
-    # TODO use some non-block http api like em-synchrony/em-http
-
-    uri = URI 'http://api.map.baidu.com/geocoder'
-    params = {
+    api_url = 'http://api.map.baidu.com/geocoder'
+    api_params = {
       coordtype: 'wgs84ll',
       location: env.params['x'] + ',' + env.params['y'],
       output: 'json',
       src: 'OakStaffStudio|SaveYourSelf'
     }
-
-    uri.query = URI.encode_www_form(params)
-
-    res = Net::HTTP.get_response(uri)
-    if res.is_a?(Net::HTTPSuccess)
-      address_component = (MultiJson.load res.body)['result']['addressComponent']
-      "#{address_component['city']} #{address_component['district']} #{address_component['street']}"
-    end
-    # TODO rescue if request failed
+    address_component = (MultiJson.load (EM::HttpRequest.new(api_url).get :query => api_params).response)['result']['addressComponent']
+    "#{address_component['city']} #{address_component['district']} #{address_component['street']}"
   end
 
   def get_nearest_shelter(x, y)
     moped[:cities].find.first
-    # TODO change to non-blocking mongo driver
   end
 
   def response(env)
