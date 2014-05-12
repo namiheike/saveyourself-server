@@ -24,8 +24,8 @@ def address_to_location(address)
   # TODO rescue if request failed
   location = (MultiJson.load Net::HTTP.get_response(uri).body)['result']['location']
   {
-    longitude: location['lng'],
-    latitude: location['lat']
+    type: 'Point',
+    coordinates: [location['lng'], location['lat']]
   }
 end
 
@@ -36,14 +36,13 @@ cities.each do |city|
 
   # load from file
   content = MultiJson.load File.read("cities/#{city}.json")
-  city_name = content['name']
 
-  content['shelters'].each_index do |i|
-    puts content['shelters'][i]['name']
-    address = city_name + content['shelters'][i]['address']
+  content.each_index do |i|
+    puts content[i]['city_name'] + content[i]['name']
+    address = content[i]['city_name'] + content[i]['address']
     puts address
-    content['shelters'][i]['location'] = address_to_location address
-    puts content['shelters'][i]['location']
+    content[i]['location'] = address_to_location address
+    puts content[i]['location']
   end
 
   # write to file

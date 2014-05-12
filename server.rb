@@ -36,6 +36,8 @@ class Server < Goliath::API
     # }
     # THIS API GOT 101 ERROR
 
+    # TODO x, y -> lon, lat
+
     api_url = 'http://api.map.baidu.com/geocoder'
     api_params = {
       coordtype: 'wgs84ll',
@@ -43,23 +45,33 @@ class Server < Goliath::API
       output: 'json',
       src: 'OakStaffStudio|SaveYourSelf'
     }
-    address_component = (MultiJson.load (EM::HttpRequest.new(api_url).get :query => api_params).response)['result']['addressComponent']
-    "#{address_component['city']} #{address_component['district']} #{address_component['street']}"
+    (MultiJson.load (EM::HttpRequest.new(api_url).get :query => api_params).response)['result']['addressComponent']
   end
 
-  def get_nearest_shelter(x, y)
-    moped[:cities].find.first
+  def get_nearest_shelters(city, x, y)
+    moped[:shelters].find({
+      city_name: city,
+      location: {
+        "$near" => {
+          "$geometry" => {
+            type: "Point",
+            coordinates: [1,1]
+          }
+        }
+      }
+    }).select(_id: 0, name: 1, phone: 1, address: 1).limit(3).to_a
   end
 
   def response(env)
+    address_component = geo_to_address(env.params['x'], env.params['y'])
     [
       200,
       {
         'Content-Type' => 'application/json'
       },
       {
-        address: geo_to_address(env.params['x'], env.params['y']),
-        nearest_shelter: get_nearest_shelter(env.params['x'], env.params['y'])
+        address: "#{address_component['city']} #{address_component['district']} #{address_component['street']}",
+        nearest_shelters: get_nearest_shelters(address_component['city'], env.params['x'], env.params['y'])
       }
     ]
   end

@@ -1,4 +1,5 @@
 # TODO conf based on environments: https://github.com/postrank-labs/goliath/wiki/Configuration
+# TODO use EM-Synchrony-Moped instead
 
 require 'moped'
 

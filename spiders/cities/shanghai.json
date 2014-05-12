@@ -1,2821 +1,4894 @@
-{
-  "name": "上海市",
-  "shelters": [
-    {
-      "name": "上海市公安局",
-      "type": "city bureau",
-      "address": "黄浦区福州路185号",
-      "location": {
-        "longitude": 121.493367,
-        "latitude": 31.24054
-      },
-      "phone": [
-        "62310110"
+[
+  {
+    "name": "上海市公安局",
+    "type": "city bureau",
+    "address": "黄浦区福州路185号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.493367,
+        31.24054
       ]
     },
-    {
-      "name": "浦东分局",
-      "type": "district bureau",
-      "phone": [
-        "22045114"
-      ],
-      "address": "杨高中路1500号",
-      "location": {
-        "longitude": 121.583292,
-        "latitude": 31.248248
-      }
-    },
-    {
-      "name": "黄浦分局",
-      "type": "district bureau",
-      "phone": [
-        "63280123"
-      ],
-      "address": "金陵东路174号",
-      "location": {
-        "longitude": 121.492765,
-        "latitude": 31.235834
-      }
-    },
-    {
-      "name": "普陀分局",
-      "type": "district bureau",
-      "phone": [
-        "52809966"
-      ],
-      "address": "大渡河路1895号",
-      "location": {
-        "longitude": 121.404467,
-        "latitude": 31.259873
-      }
-    },
-    {
-      "name": "长宁分局",
-      "type": "district bureau",
-      "phone": [
-        "62906290"
-      ],
-      "address": "威宁路201号",
-      "location": {
-        "longitude": 121.390843,
-        "latitude": 31.21593
-      }
-    },
-    {
-      "name": "徐汇分局",
-      "type": "district bureau",
-      "phone": [
-        "64868911"
-      ],
-      "address": "天钥桥路901号",
-      "location": {
-        "longitude": 121.451014,
-        "latitude": 31.187906
-      }
-    },
-    {
-      "name": "闸北分局",
-      "type": "district bureau",
-      "phone": [
-        "33034510"
-      ],
-      "address": "天目中路600号",
-      "location": {
-        "longitude": 121.470582,
-        "latitude": 31.250466
-      }
-    },
-    {
-      "name": "静安分局",
-      "type": "district bureau",
-      "phone": [
-        "62588800"
-      ],
-      "address": "胶州路415号",
-      "location": {
-        "longitude": 121.448509,
-        "latitude": 31.237295
-      }
-    },
-    {
-      "name": "卢湾分局",
-      "type": "district bureau",
-      "phone": [
-        "53025110"
-      ],
-      "address": "中山南一路599号",
-      "location": {
-        "longitude": 121.488281,
-        "latitude": 31.204941
-      }
-    },
-    {
-      "name": "虹口分局",
-      "type": "district bureau",
-      "phone": [
-        "63242200"
-      ],
-      "address": "闵行路260号",
-      "location": {
-        "longitude": 121.49696,
-        "latitude": 31.25322
-      }
-    },
-    {
-      "name": "杨浦分局",
-      "type": "district bureau",
-      "phone": [
-        "65431000"
-      ],
-      "address": "平凉路2049号",
-      "location": {
-        "longitude": 121.553108,
-        "latitude": 31.277082
-      }
-    },
-    {
-      "name": "闵行分局",
-      "type": "district bureau",
-      "phone": [
-        "34074800"
-      ],
-      "address": "银都路3700号 ",
-      "location": {
-        "longitude": 121.394952,
-        "latitude": 31.095447
-      }
-    },
-    {
-      "name": "宝山分局",
-      "type": "district bureau",
-      "phone": [
-        "56608111"
-      ],
-      "address": "克山路199号 ",
-      "location": {
-        "longitude": 121.473609,
-        "latitude": 31.407261
-      }
-    },
-    {
-      "name": "嘉定分局",
-      "type": "district bureau",
-      "phone": [
-        "59995000"
-      ],
-      "address": "塔城东路400号",
-      "location": {
-        "longitude": 121.273592,
-        "latitude": 31.394367
-      }
-    },
-    {
-      "name": "松江分局",
-      "type": "district bureau",
-      "phone": [
-        "57823618"
-      ],
-      "address": "松江区中山东路290号",
-      "location": {
-        "longitude": 121.248977,
-        "latitude": 31.012928
-      }
-    },
-    {
-      "name": "金山分局",
-      "type": "district bureau",
-      "phone": [
-        "57350820"
-      ],
-      "address": "亭枫公路8219号",
-      "location": {
-        "longitude": 121.041248,
-        "latitude": 30.881796
-      }
-    },
-    {
-      "name": "奉贤分局",
-      "type": "district bureau",
-      "phone": [
-        "57426071"
-      ],
-      "address": "南桥镇城乡路3号",
-      "location": {
-        "longitude": 121.468699,
-        "latitude": 30.91981
-      }
-    },
-    {
-      "name": "青浦分局",
-      "type": "district bureau",
-      "phone": [
-        "59729780"
-      ],
-      "address": "青浦区城中北路485号",
-      "location": {
-        "longitude": 121.118562,
-        "latitude": 31.160932
-      }
-    },
-    {
-      "name": "崇明分局",
-      "type": "district bureau",
-      "phone": [
-        "59311039"
-      ],
-      "address": "城桥镇人民路12号",
-      "location": {
-        "longitude": 121.407528,
-        "latitude": 31.628206
-      }
-    },
-    {
-      "district": "浦东",
-      "name": "沪东新村派出所",
-      "address": "兰城路265号",
-      "phone": [
-        "58463559"
-      ],
-      "subdistrict": "沪东新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "潍坊新村派出所",
-      "address": "潍坊六村628号",
-      "phone": [
-        "58305370"
-      ],
-      "subdistrict": "潍坊新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "梅园新村派出所",
-      "address": "乳山路235弄6号",
-      "phone": [
-        "58315543"
-      ],
-      "subdistrict": "梅园新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "三林派出所",
-      "address": "三鲁路157号",
-      "phone": [
-        "50841100"
-      ],
-      "subdistrict": "三林镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "东明路派出所",
-      "address": "永泰路875号",
-      "phone": [
-        "50842411"
-      ],
-      "subdistrict": "东明街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "上钢新村派出所",
-      "address": "历城路50号",
-      "phone": [
-        "58835247"
-      ],
-      "subdistrict": "上钢新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "周家渡派出所",
-      "address": "昌里东路185号",
-      "phone": [
-        "58837001"
-      ],
-      "subdistrict": "周家渡街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "南码头路派出所",
-      "address": "浦三路60号",
-      "phone": [
-        "58893374"
-      ],
-      "subdistrict": "南码头街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "杨思派出所",
-      "address": "板泉路333号",
-      "phone": [
-        "58428065"
-      ],
-      "subdistrict": "三林镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "唐镇派出所",
-      "address": "唐陆路3300号",
-      "phone": [
-        "58961106"
-      ],
-      "subdistrict": "唐镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "塘桥派出所",
-      "address": "南泉路1355号",
-      "phone": [
-        "58890406"
-      ],
-      "subdistrict": "塘桥街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "花木派出所",
-      "address": "浦建路1207号",
-      "phone": [
-        "68451970"
-      ],
-      "subdistrict": "花木镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "川沙派出所",
-      "address": "川沙镇车站路1号",
-      "phone": [
-        "58907376"
-      ],
-      "subdistrict": "川沙镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "合庆派出所",
-      "address": "前哨路160号",
-      "phone": [
-        "58971101"
-      ],
-      "subdistrict": "合庆镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "金桥派出所",
-      "address": "永宁路124号",
-      "phone": [
-        "58992505"
-      ],
-      "subdistrict": "金桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "高桥派出所",
-      "address": "高桥镇通园路21弄8号",
-      "phone": [
-        "58671010"
-      ],
-      "subdistrict": "高桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "北蔡派出所",
-      "address": "莲园路225号",
-      "phone": [
-        "58911514"
-      ],
-      "subdistrict": "北蔡镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "高行派出所",
-      "address": "东沟行南路400号",
-      "phone": [
-        "58670204"
-      ],
-      "subdistrict": "高行镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "张江派出所",
-      "address": "龙东大道1920号",
-      "phone": [
-        "58551201"
-      ],
-      "subdistrict": "张江镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "金杨新村派出所",
-      "address": "云山路1349号",
-      "phone": [
-        "58994492"
-      ],
-      "subdistrict": "金杨新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "六里派出所",
-      "address": "浦三路749号",
-      "phone": [
-        "50867327"
-      ],
-      "subdistrict": "北蔡镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "黄楼派出所",
-      "address": "川周公路6429号",
-      "phone": [
-        "58941125"
-      ],
-      "subdistrict": "川沙镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "六团派出所",
-      "address": "川六公路1615号",
-      "phone": [
-        "58594110"
-      ],
-      "subdistrict": "川沙镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "顾路派出所",
-      "address": "顾曹路595号",
-      "phone": [
-        "58631132"
-      ],
-      "subdistrict": "曹路镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "蔡路派出所",
-      "address": "东川路7777号",
-      "phone": [
-        "68900781"
-      ],
-      "subdistrict": "合庆镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "王港派出所",
-      "address": "新雅路258号",
-      "phone": [
-        "58582125"
-      ],
-      "subdistrict": "唐镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "龚路派出所",
-      "address": "龚丰路295号",
-      "phone": [
-        "58562851"
-      ],
-      "subdistrict": "曹路镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "凌桥派出所",
-      "address": "江东路1380弄50号",
-      "phone": [
-        "58642005"
-      ],
-      "subdistrict": "高桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "孙桥派出所",
-      "address": "横沔江路52号",
-      "phone": [
-        "58570402"
-      ],
-      "subdistrict": "张江镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "高东派出所",
-      "address": "光明路728号",
-      "phone": [
-        "58480209"
-      ],
-      "subdistrict": "高东镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "杨园派出所",
-      "address": "新园路388号",
-      "phone": [
-        "68481626"
-      ],
-      "subdistrict": "高东镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "浦兴路派出所",
-      "address": "浦兴路588号",
-      "phone": [
-        "68953728"
-      ],
-      "subdistrict": "浦兴街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "罗山新村派出所",
-      "address": "栖山路1025号",
-      "phone": [
-        "50614567"
-      ],
-      "subdistrict": "罗山新村",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "洋泾派出所",
-      "address": "巨野路261号",
-      "phone": [
-        "58520229"
-      ],
-      "subdistrict": "洋泾街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "江镇派出所",
-      "address": "江明路200号",
-      "phone": [
-        "58932999"
-      ],
-      "subdistrict": "机场镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "陆家嘴治安派出所",
-      "address": "商城路357号",
-      "phone": [
-        "58783713"
-      ],
-      "subdistrict": "梅园新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "金桥出口加工区治安派出所",
-      "address": "红枫路18号",
-      "phone": [
-        "58995705"
-      ],
-      "subdistrict": "金桥出口加工区",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "世纪广场治安派出所",
-      "address": "丁香路602号",
-      "phone": [
-        "68543142"
-      ],
-      "subdistrict": "花木镇",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "张江高科技园区治安派出所",
-      "address": "牛顿路111号",
-      "phone": [
-        "38953214"
-      ],
-      "subdistrict": "张江高科委员会",
-      "type": "local station"
-    },
-    {
-      "district": "浦东",
-      "name": "水上治安派出所",
-      "address": "华益路326号",
-      "phone": [
-        "58958578"
-      ],
-      "subdistrict": "张江高科委员会",
-      "type": "local station"
-    },
-    {
-      "district": "卢湾",
-      "name": "打浦桥派出所",
-      "address": "丽园路895号",
-      "phone": [
-        "63018716"
-      ],
-      "subdistrict": "打浦街道",
-      "type": "local station"
-    },
-    {
-      "district": "卢湾",
-      "name": "淮海中路派出所",
-      "address": "普安路177号",
-      "phone": [
-        "53060595"
-      ],
-      "subdistrict": "淮海中路街道",
-      "type": "local station"
-    },
-    {
-      "district": "卢湾",
-      "name": "瑞金二路派出所",
-      "address": "淮海中路505号",
-      "phone": [
-        "53863868"
-      ],
-      "subdistrict": "瑞金二路街道",
-      "type": "local station"
-    },
-    {
-      "district": "卢湾",
-      "name": "五里桥派出所",
-      "address": "中山南一路1109弄3号楼",
-      "phone": [
-        "63010589"
-      ],
-      "subdistrict": "五里桥街道",
-      "type": "local station"
-    },
-    {
-      "district": "卢湾",
-      "name": "新天地治安派出所",
-      "address": "黄陂南路363号",
-      "phone": [
-        "63866069"
-      ],
-      "subdistrict": "淮海中路街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "湖南路派出所",
-      "address": "复兴西路84弄2号",
-      "phone": [
-        "64370540"
-      ],
-      "subdistrict": "湖南街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "天平路派出所",
-      "address": "衡山路696弄1号",
-      "phone": [
-        "64336776"
-      ],
-      "subdistrict": "天平街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "徐家汇派出所",
-      "address": "零陵路801号",
-      "phone": [
-        "64380527"
-      ],
-      "subdistrict": "徐家汇街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "枫林路派出所",
-      "address": "双峰路396号",
-      "phone": [
-        "64643798"
-      ],
-      "subdistrict": "枫林街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "斜土路派出所",
-      "address": "零陵路51号",
-      "phone": [
-        "64042433"
-      ],
-      "subdistrict": "斜土街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "龙华派出所",
-      "address": "龙华路2796号",
-      "phone": [
-        "64576480"
-      ],
-      "subdistrict": "龙华街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "田林新村派出所",
-      "address": "田林14村120号",
-      "phone": [
-        "64366396"
-      ],
-      "subdistrict": "田林街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "漕河泾派出所",
-      "address": "康健路80号",
-      "phone": [
-        "64360683"
-      ],
-      "subdistrict": "漕河泾街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "虹梅派出所",
-      "address": "虹漕路7号",
-      "phone": [
-        "64369873"
-      ],
-      "subdistrict": "虹梅街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "康健新村派出所",
-      "address": "桂林东街201号",
-      "phone": [
-        "64362677"
-      ],
-      "subdistrict": "康健新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "长桥新村派出所",
-      "address": "罗香路100号",
-      "phone": [
-        "64102445"
-      ],
-      "subdistrict": "长桥新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "华泾派出所",
-      "address": "龙吴路 2449号",
-      "phone": [
-        "54829900"
-      ],
-      "subdistrict": "华泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "凌云路派出所",
-      "address": "凌云路388号",
-      "phone": [
-        "64530587"
-      ],
-      "subdistrict": "凌云街道",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "上海体育中心治安派出所",
-      "address": "零陵路858号",
-      "phone": [
-        "64265366"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "徐汇",
-      "name": "南站治安派出所",
-      "address": "石龙路79弄1号",
-      "phone": [
-        "54081757"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "周家桥派出所",
-      "address": "长宁路1448弄8号",
-      "phone": [
-        "62598037"
-      ],
-      "subdistrict": "周桥街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "天山路派出所",
-      "address": "紫云路365号",
-      "phone": [
-        "62598760"
-      ],
-      "subdistrict": "天山街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "华阳路派出所",
-      "address": "定西路1291号",
-      "phone": [
-        "62525767"
-      ],
-      "subdistrict": "华阳街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "新泾派出所",
-      "address": "剑河路500号",
-      "phone": [
-        "52199033"
-      ],
-      "subdistrict": "新泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "程家桥派出所",
-      "address": "哈密路1721号",
-      "phone": [
-        "62686519"
-      ],
-      "subdistrict": "程桥街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "江苏路派出所",
-      "address": "利西路108号",
-      "phone": [
-        "62106334"
-      ],
-      "subdistrict": "江苏街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "新华路派出所",
-      "address": "法华镇路475号",
-      "phone": [
-        "52587575"
-      ],
-      "subdistrict": "新华街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "北新泾派出所",
-      "address": "平塘路205号",
-      "phone": [
-        "62389606"
-      ],
-      "subdistrict": "北新泾街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "仙霞路派出所",
-      "address": "芙蓉江路100弄2号",
-      "phone": [
-        "62340769"
-      ],
-      "subdistrict": "仙霞街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "虹桥路派出所",
-      "address": "虹桥路1151号",
-      "phone": [
-        "62193258"
-      ],
-      "subdistrict": "虹桥街道",
-      "type": "local station"
-    },
-    {
-      "district": "长宁",
-      "name": "新虹桥治安派出所",
-      "address": "古北路778号",
-      "phone": [
-        "62193258"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "静安",
-      "name": "静安寺派出所",
-      "address": "万航渡路55弄5号",
-      "phone": [
-        "62888078"
-      ],
-      "subdistrict": "静安寺街道",
-      "type": "local station"
-    },
-    {
-      "district": "静安",
-      "name": "南京西路派出所",
-      "address": "延安中路931号",
-      "phone": [
-        "62476100"
-      ],
-      "subdistrict": "南京西路街道",
-      "type": "local station"
-    },
-    {
-      "district": "静安",
-      "name": "石门二路派出所",
-      "address": "大田路351号",
-      "phone": [
-        "62568567"
-      ],
-      "subdistrict": "石门二路街道",
-      "type": "local station"
-    },
-    {
-      "district": "静安",
-      "name": "曹家渡派出所",
-      "address": "万航渡路684号",
-      "phone": [
-        "62522075"
-      ],
-      "subdistrict": "曹家渡街道",
-      "type": "local station"
-    },
-    {
-      "district": "静安",
-      "name": "江宁路派出所",
-      "address": "新闸路1332号",
-      "phone": [
-        "62580510"
-      ],
-      "subdistrict": "江宁街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "天目西路派出所",
-      "address": "恒丰路77号",
-      "phone": [
-        "63800364"
-      ],
-      "subdistrict": "天目西街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "北站派出所",
-      "address": "浙江北路321号",
-      "phone": [
-        "63933628"
-      ],
-      "subdistrict": "北站街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "宝山路派出所",
-      "address": "青云路481号",
-      "phone": [
-        "56629330"
-      ],
-      "subdistrict": "宝山街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "芷江西路派出所",
-      "address": "芷江西路163号",
-      "phone": [
-        "56906596"
-      ],
-      "subdistrict": "芷江西街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "共和新路派出所",
-      "address": "共和新路1302号",
-      "phone": [
-        "56626109"
-      ],
-      "subdistrict": "共和新街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "大宁路派出所",
-      "address": "共和新路2299号",
-      "phone": [
-        "56653233"
-      ],
-      "subdistrict": "大宁街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "彭浦镇派出所",
-      "address": "灵石路731号",
-      "phone": [
-        "56771683"
-      ],
-      "subdistrict": "彭浦镇街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "彭浦新村派出所",
-      "address": "彭浦新村161号甲",
-      "phone": [
-        "56913791"
-      ],
-      "subdistrict": "彭浦新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "三泉路派出所",
-      "address": "曲沃路460号",
-      "phone": [
-        "66242282"
-      ],
-      "subdistrict": "彭浦新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "临汾路派出所",
-      "address": "景风路398号",
-      "phone": [
-        "56884356"
-      ],
-      "subdistrict": "临汾街道",
-      "type": "local station"
-    },
-    {
-      "district": "闸北",
-      "name": "上海站地区治安派出所",
-      "address": "恒丰路787号",
-      "phone": [
-        "33030081"
-      ],
-      "subdistrict": "上海站管委会",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "乍浦路派出所",
-      "address": "昆山路104号",
-      "phone": [
-        "63242886"
-      ],
-      "subdistrict": "乍浦街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "四川北路派出所",
-      "address": "溧阳路1338号",
-      "phone": [
-        "56665799"
-      ],
-      "subdistrict": "四川北路街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "欧阳路派出所",
-      "address": "天宝西路277号",
-      "phone": [
-        "65226954"
-      ],
-      "subdistrict": "欧阳街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "新港路派出所",
-      "address": "天宝路543号",
-      "phone": [
-        "65625137"
-      ],
-      "subdistrict": "新港街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "嘉兴路派出所",
-      "address": "海伦路87号",
-      "phone": [
-        "65011463"
-      ],
-      "subdistrict": "嘉兴街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "曲阳路派出所",
-      "address": "巴林路56号",
-      "phone": [
-        "65552848"
-      ],
-      "subdistrict": "曲阳街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "提篮桥派出所",
-      "address": "海门路70号",
-      "phone": [
-        "65415881"
-      ],
-      "subdistrict": "提蓝桥街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "广中路派出所",
-      "address": "中山北一路208号",
-      "phone": [
-        "56961489"
-      ],
-      "subdistrict": "广中街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "凉城新村派出所",
-      "address": "凉城路665号",
-      "phone": [
-        "65296693"
-      ],
-      "subdistrict": "凉城街道",
-      "type": "local station"
-    },
-    {
-      "district": "虹口",
-      "name": "江湾派出所",
-      "address": "万安路745号",
-      "phone": [
-        "65608547"
-      ],
-      "subdistrict": "江湾镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "高境派出所",
-      "address": "新二路101号",
-      "phone": [
-        "66180110"
-      ],
-      "subdistrict": "高境镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "吴淞派出所",
-      "address": "淞兴西路201号",
-      "phone": [
-        "56671069"
-      ],
-      "subdistrict": "吴淞街道",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "罗泾派出所",
-      "address": "新川沙路535号",
-      "phone": [
-        "56871808"
-      ],
-      "subdistrict": "罗泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "刘行派出所",
-      "address": "宝安公路1435号",
-      "phone": [
-        "56022003"
-      ],
-      "subdistrict": "顾村镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "罗店派出所",
-      "address": "罗太路232号",
-      "phone": [
-        "36130382"
-      ],
-      "subdistrict": "罗店镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "月浦派出所",
-      "address": "月罗路168号",
-      "phone": [
-        "56646482"
-      ],
-      "subdistrict": "月浦镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "双城派出所",
-      "address": "淞宝路1101号",
-      "phone": [
-        "56167100"
-      ],
-      "subdistrict": "友谊街道",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "顾村派出所",
-      "address": "顾村电台南路2号",
-      "phone": [
-        "56042284"
-      ],
-      "subdistrict": "顾村镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "淞南派出所",
-      "address": "淞良路188号",
-      "phone": [
-        "56140391"
-      ],
-      "subdistrict": "淞南镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "祁连派出所",
-      "address": "锦秋路1281号",
-      "phone": [
-        "56131110"
-      ],
-      "subdistrict": "大场镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "泗塘新村派出所",
-      "address": "虎林路236号",
-      "phone": [
-        "56994215"
-      ],
-      "subdistrict": "泗塘街道",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "庙行派出所",
-      "address": "三泉路1501号",
-      "phone": [
-        "56416610"
-      ],
-      "subdistrict": "庙行镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "海滨新村派出所",
-      "address": "同济支路55号",
-      "phone": [
-        "56172645"
-      ],
-      "subdistrict": "海滨新村街道",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "友谊路派出所",
-      "address": "友谊路197弄10号",
-      "phone": [
-        "56691621"
-      ],
-      "subdistrict": "友谊街道",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "杨行派出所",
-      "address": "杨泰路198号",
-      "phone": [
-        "56801733"
-      ],
-      "subdistrict": "杨行镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "盛桥派出所",
-      "address": "蕴川路5501号",
-      "phone": [
-        "56150250"
-      ],
-      "subdistrict": "月浦镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "罗南派出所",
-      "address": "南东路107号",
-      "phone": [
-        "56010108"
-      ],
-      "subdistrict": "罗南镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "通河新村派出所",
-      "address": "通河路689号",
-      "phone": [
-        "56995808"
-      ],
-      "subdistrict": "通河街道",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "大场派出所",
-      "address": "沪太支路1300号",
-      "phone": [
-        "56680748"
-      ],
-      "subdistrict": "大场镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "大华新村派出所",
-      "address": "汶水路1666号",
-      "phone": [
-        "66390092"
-      ],
-      "subdistrict": "大场镇",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "吴淞码头治安派出所",
-      "address": "淞宝路永清路口",
-      "phone": [
-        "56585101"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "宝山",
-      "name": "水上治安派出所",
-      "address": "淞浦路650号",
-      "phone": [
-        "56672959"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "安亭派出所",
-      "address": "墨玉路68号",
-      "phone": [
-        "59577197"
-      ],
-      "subdistrict": "安亭镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "曹王派出所",
-      "address": "曹新路1388弄28号",
-      "phone": [
-        "59946308"
-      ],
-      "subdistrict": "徐行镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "方泰派出所",
-      "address": "嘉松北路4418号",
-      "phone": [
-        "59509585"
-      ],
-      "subdistrict": "安亭镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "封浜派出所",
-      "address": "乡思路201号",
-      "phone": [
-        "59137585"
-      ],
-      "subdistrict": "江桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "华亭派出所",
-      "address": "华谊路188号",
-      "phone": [
-        "59971202"
-      ],
-      "subdistrict": "华亭镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "黄渡派出所",
-      "address": "嘉松北路7285号",
-      "phone": [
-        "59595214"
-      ],
-      "subdistrict": "黄渡镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "嘉城派出所",
-      "address": "塔城路555号",
-      "phone": [
-        "59530623"
-      ],
-      "subdistrict": "嘉城街道",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "戬浜派出所",
-      "address": "嘉戬支路222号",
-      "phone": [
-        "59511585"
-      ],
-      "subdistrict": "马陆镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "菊园派出所",
-      "address": "胜竹路1980号",
-      "phone": [
-        "69991464"
-      ],
-      "subdistrict": "新区管委会",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "娄塘派出所",
-      "address": "南新路167号",
-      "phone": [
-        "59543880"
-      ],
-      "subdistrict": "工业园区",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "马陆派出所",
-      "address": "沪宜公路1888号",
-      "phone": [
-        "59156585"
-      ],
-      "subdistrict": "马陆镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "南翔派出所",
-      "address": "众仁路555号",
-      "phone": [
-        "59121088"
-      ],
-      "subdistrict": "南翔镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "唐行派出所",
-      "address": "唐窑路26号",
-      "phone": [
-        "59951210"
-      ],
-      "subdistrict": "华亭镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "外冈派出所",
-      "address": "祁昌路5号",
-      "phone": [
-        "59588808"
-      ],
-      "subdistrict": "外冈镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "新成路派出所",
-      "address": "迎园路555号",
-      "phone": [
-        "59988808"
-      ],
-      "subdistrict": "新成街道",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "徐行派出所",
-      "address": "澄浏路518号",
-      "phone": [
-        "59558604"
-      ],
-      "subdistrict": "徐行镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "叶城派出所",
-      "address": "叶城路900号",
-      "phone": [
-        "59164585"
-      ],
-      "subdistrict": "工业园区",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "真新新村派出所",
-      "address": "清峪路999号",
-      "phone": [
-        "59181457"
-      ],
-      "subdistrict": "真新街道",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "朱家桥派出所",
-      "address": "嘉朱路1725号",
-      "phone": [
-        "59962011"
-      ],
-      "subdistrict": "工业园区",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "江桥派出所",
-      "address": "华江支路16号",
-      "phone": [
-        "59144585"
-      ],
-      "subdistrict": "江桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "上海国际赛车场治安派出所",
-      "address": "F1赛车场东环二路",
-      "phone": [
-        "69569110"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "嘉定",
-      "name": "水上治安派出所",
-      "address": "嘉罗路1180号",
-      "phone": [
-        "59927110"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "车墩派出所",
-      "address": "北松公路4669号",
-      "phone": [
-        "57602103"
-      ],
-      "subdistrict": "车墩镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "大港派出所",
-      "address": "新港路18号",
-      "phone": [
-        "57855529"
-      ],
-      "subdistrict": "工业园区",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "小昆山派出所",
-      "address": "崇南路16号",
-      "phone": [
-        "57762098"
-      ],
-      "subdistrict": "小昆山镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "岳阳派出所",
-      "address": "谷阳北路42号",
-      "phone": [
-        "57818220"
-      ],
-      "subdistrict": "岳阳街道",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "佘山派出所",
-      "address": "陈坊桥西霞路30号",
-      "phone": [
-        "57652928"
-      ],
-      "subdistrict": "佘山镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "叶榭派出所",
-      "address": "叶榭镇政府路8号",
-      "phone": [
-        "67800052"
-      ],
-      "subdistrict": "叶榭镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "华阳派出所",
-      "address": "朝阳路20号",
-      "phone": [
-        "57775366"
-      ],
-      "subdistrict": "车墩镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "九亭派出所",
-      "address": "九亭镇九亭大街110号",
-      "phone": [
-        "57633808"
-      ],
-      "subdistrict": "九亭镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "李塔汇派出所",
-      "address": "石湖荡镇塔汇路419号",
-      "phone": [
-        "57846310"
-      ],
-      "subdistrict": "石湖荡镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "泖港派出所",
-      "address": "泖港镇中南路38号",
-      "phone": [
-        "57863400"
-      ],
-      "subdistrict": "泖港镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "荣乐东路派出所",
-      "address": "方塔北路俞塘支路110号",
-      "phone": [
-        "57740943"
-      ],
-      "subdistrict": "工业园区",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "石湖荡派出所",
-      "address": "石湖荡镇古松路60号",
-      "phone": [
-        "57751767"
-      ],
-      "subdistrict": "石湖荡镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "泗泾派出所",
-      "address": "四泾镇文化路168号",
-      "phone": [
-        "57620110"
-      ],
-      "subdistrict": "泗泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "天马山派出所",
-      "address": "佘山镇天新路16号",
-      "phone": [
-        "57660060"
-      ],
-      "subdistrict": "佘山镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "五厍派出所",
-      "address": "泖港镇中厍路165号",
-      "phone": [
-        "57877797"
-      ],
-      "subdistrict": "五厍居委",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "新浜派出所",
-      "address": "新浜镇新引路1110号",
-      "phone": [
-        "57892802"
-      ],
-      "subdistrict": "新浜镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "新桥派出所",
-      "address": "新镇街133号",
-      "phone": [
-        "57643220"
-      ],
-      "subdistrict": "新桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "永丰派出所",
-      "address": "松江镇荣乐西路126号",
-      "phone": [
-        "67710829"
-      ],
-      "subdistrict": "永丰街道",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "方松派出所",
-      "address": "西林北路1080号",
-      "phone": [
-        "67718986"
-      ],
-      "subdistrict": "方松街道",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "洞泾派出所",
-      "address": "洞泾镇同盛路198号",
-      "phone": [
-        "57671100"
-      ],
-      "subdistrict": "洞泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "张泽派出所",
-      "address": "叶榭镇辕门路150弄8号",
-      "phone": [
-        "57881919"
-      ],
-      "subdistrict": "叶榭镇",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "中山派出所",
-      "address": "茸梅路151号",
-      "phone": [
-        "57786751"
-      ],
-      "subdistrict": "中山街道",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "大学城派出所",
-      "address": "文汇路560号",
-      "phone": [
-        "67796199"
-      ],
-      "subdistrict": "方松街道",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "贵德路派出所",
-      "address": "贵德路76号",
-      "phone": [
-        "57733959"
-      ],
-      "subdistrict": "800研究所",
-      "type": "local station"
-    },
-    {
-      "district": "松江",
-      "name": "水上治安派出所",
-      "address": "人民南路62号",
-      "phone": [
-        "57811709"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "漕泾派出所",
-      "address": "文明路1号",
-      "phone": [
-        "57252110"
-      ],
-      "subdistrict": "漕泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "枫泾派出所",
-      "address": "新枫路30号",
-      "phone": [
-        "57371110"
-      ],
-      "subdistrict": "枫泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "干巷派出所",
-      "address": "金张公路2523号",
-      "phone": [
-        "57204110"
-      ],
-      "subdistrict": "干巷镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "金山卫派出所",
-      "address": "老卫清路29号",
-      "phone": [
-        "57265110"
-      ],
-      "subdistrict": "金山卫镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "廊下派出所",
-      "address": "廊华路188号",
-      "phone": [
-        "57390110"
-      ],
-      "subdistrict": "廊下镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "吕巷派出所",
-      "address": "吕朱公路6899号",
-      "phone": [
-        "57370110"
-      ],
-      "subdistrict": "吕巷镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "蒙山路派出所",
-      "address": "石化东礁二村30号",
-      "phone": [
-        "57966110"
-      ],
-      "subdistrict": "石化街道",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "钱圩派出所",
-      "address": "吕张公路1196弄10号",
-      "phone": [
-        "57291110"
-      ],
-      "subdistrict": "金山卫镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "山阳派出所",
-      "address": "红旗西路110号",
-      "phone": [
-        "57245110"
-      ],
-      "subdistrict": "山阳镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "松隐派出所",
-      "address": "松心路187号",
-      "phone": [
-        "57380110"
-      ],
-      "subdistrict": "松隐镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "亭林派出所",
-      "address": "松金公路5265号",
-      "phone": [
-        "57230110"
-      ],
-      "subdistrict": "亭林镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "象州路派出所",
-      "address": "象州路50号",
-      "phone": [
-        "57930110"
-      ],
-      "subdistrict": "石化街道",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "新农派出所",
-      "address": "文化街36号",
-      "phone": [
-        "57340110"
-      ],
-      "subdistrict": "新农镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "兴塔派出所",
-      "address": "新金山路296号",
-      "phone": [
-        "57363110"
-      ],
-      "subdistrict": "兴塔镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "张堰派出所",
-      "address": "松金公路2518号",
-      "phone": [
-        "57210110"
-      ],
-      "subdistrict": "张堰镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "朱泾派出所",
-      "address": "临源街550号",
-      "phone": [
-        "57320110"
-      ],
-      "subdistrict": "朱泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "朱行派出所",
-      "address": "亭卫公路6655号",
-      "phone": [
-        "57272110"
-      ],
-      "subdistrict": "朱行镇",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "石化治安派出所",
-      "address": "沪杭公路8718号",
-      "phone": [
-        "57934110"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "金山",
-      "name": "水上治安派出所",
-      "address": "码头路18号",
-      "phone": [
-        "57311110"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "黄浦",
-      "name": "半淞园派出所",
-      "address": "西藏南路1427号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "半淞园街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-34812"
+    "phone": [
+      "62310110"
+    ],
+    "city_name": "上海市"
+  },
+  {
+    "name": "浦东分局",
+    "type": "district bureau",
+    "phone": [
+      "22045114"
+    ],
+    "address": "杨高中路1500号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.583292,
+        31.248248
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "董家渡派出所",
-      "address": "董家渡路308号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "董家渡街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-34452"
+    "city_name": "上海市"
+  },
+  {
+    "name": "黄浦分局",
+    "type": "district bureau",
+    "phone": [
+      "63280123"
+    ],
+    "address": "金陵东路174号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.492765,
+        31.235834
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "人民广场派出所",
-      "address": "南京西路499号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "人民广场街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-33966"
+    "city_name": "上海市"
+  },
+  {
+    "name": "普陀分局",
+    "type": "district bureau",
+    "phone": [
+      "52809966"
+    ],
+    "address": "大渡河路1895号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.404467,
+        31.259873
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "金陵东路派出所",
-      "address": "福建南路72号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "金陵东路街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-33492"
+    "city_name": "上海市"
+  },
+  {
+    "name": "长宁分局",
+    "type": "district bureau",
+    "phone": [
+      "62906290"
+    ],
+    "address": "威宁路201号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.390843,
+        31.21593
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "南京东路派出所",
-      "address": "贵州路85号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "南京东路街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-33422"
+    "city_name": "上海市"
+  },
+  {
+    "name": "徐汇分局",
+    "type": "district bureau",
+    "phone": [
+      "64868911"
+    ],
+    "address": "天钥桥路901号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.451014,
+        31.187906
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "外滩派出所",
-      "address": "天津路195弄50号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "外滩街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-33442"
+    "city_name": "上海市"
+  },
+  {
+    "name": "闸北分局",
+    "type": "district bureau",
+    "phone": [
+      "33034510"
+    ],
+    "address": "天目中路600号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.470582,
+        31.250466
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "小东门派出所",
-      "address": "中华路581号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "小东门街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-34702"
+    "city_name": "上海市"
+  },
+  {
+    "name": "静安分局",
+    "type": "district bureau",
+    "phone": [
+      "62588800"
+    ],
+    "address": "胶州路415号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.448509,
+        31.237295
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "豫园派出所",
-      "address": "马园街1号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "豫园街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-34772"
+    "city_name": "上海市"
+  },
+  {
+    "name": "卢湾分局",
+    "type": "district bureau",
+    "phone": [
+      "53025110"
+    ],
+    "address": "中山南一路599号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.488281,
+        31.204941
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "老西门派出所",
-      "address": "林荫路77号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "老西门街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-34609"
+    "city_name": "上海市"
+  },
+  {
+    "name": "虹口分局",
+    "type": "district bureau",
+    "phone": [
+      "63242200"
+    ],
+    "address": "闵行路260号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.49696,
+        31.25322
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "人民广场治安派出所",
-      "address": "武胜路18号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "人民广场街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-33402"
+    "city_name": "上海市"
+  },
+  {
+    "name": "杨浦分局",
+    "type": "district bureau",
+    "phone": [
+      "65431000"
+    ],
+    "address": "平凉路2049号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.553108,
+        31.277082
       ]
     },
-    {
-      "district": "黄浦",
-      "name": "外滩治安派出所",
-      "address": "南苏州路40号",
-      "phone": [
-        "63280123"
-      ],
-      "subdistrict": "外滩街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "63280123-33412"
+    "city_name": "上海市"
+  },
+  {
+    "name": "闵行分局",
+    "type": "district bureau",
+    "phone": [
+      "34074800"
+    ],
+    "address": "银都路3700号 ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.394952,
+        31.095447
       ]
     },
-    {
-      "district": "普陀",
-      "name": "长寿路派出所",
-      "address": "宜昌路555号",
-      "phone": [
-        "22048050",
-        "62776910"
-      ],
-      "subdistrict": "东新街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "甘泉路派出所",
-      "address": "宜川路351弄31号",
-      "phone": [
-        "22048250",
-        "56051740"
-      ],
-      "subdistrict": "甘泉街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "石泉路派出所",
-      "address": "岚皋路40弄8号",
-      "phone": [
-        "52941493",
-        "52908510"
-      ],
-      "subdistrict": "石泉街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "真如派出所",
-      "address": "真如南大街80号",
-      "phone": [
-        "22048500",
-        "62548810"
-      ],
-      "subdistrict": "真如镇",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "白玉路派出所",
-      "address": "宁夏路208号",
-      "phone": [
-        "22048350",
-        "62448820"
-      ],
-      "subdistrict": "长风街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "东新路派出所",
-      "address": "东新路135号",
-      "phone": [
-        "22048100",
-        "52905990"
-      ],
-      "subdistrict": "东新街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "万里派出所",
-      "address": "新村路1299号",
-      "phone": [
-        "22048750",
-        "66770673",
-        "66770674"
-      ],
-      "subdistrict": "长征镇",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "曹杨新村派出所",
-      "address": "梅岭支路85弄30号",
-      "phone": [
-        "22048650",
-        "62548480"
-      ],
-      "subdistrict": "曹杨街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "中山北路派出所",
-      "address": "光新路三新村23号",
-      "phone": [
-        "22048150",
-        "62142490"
-      ],
-      "subdistrict": "宜川街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "宜川新村派出所",
-      "address": "华阴路300号",
-      "phone": [
-        "22048200",
-        "56520220"
-      ],
-      "subdistrict": "宜川街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "长风新村派出所",
-      "address": "怒江路131弄100号",
-      "phone": [
-        "22048450",
-        "62548530"
-      ],
-      "subdistrict": "长风街道",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "真光路派出所",
-      "address": "真光路1798号",
-      "phone": [
-        "22048600",
-        "52782350"
-      ],
-      "subdistrict": "真如镇",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "长征派出所",
-      "address": "梅岭北路1238号",
-      "phone": [
-        "22048550",
-        "62655550"
-      ],
-      "subdistrict": "长征镇",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "桃浦派出所",
-      "address": "真南路1999号",
-      "phone": [
-        "22048700"
-      ],
-      "subdistrict": "桃浦镇",
-      "type": "local station"
-    },
-    {
-      "district": "普陀",
-      "name": "白丽路派出所",
-      "address": "红棉路301弄1号",
-      "phone": [
-        "22048750",
-        "66262370"
-      ],
-      "subdistrict": "桃浦镇",
-      "type": "local station"
-    },
-    {
-      "district": "杨浦",
-      "name": "平凉路派出所",
-      "address": "龙江路2号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "平凉街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76280"
+    "city_name": "上海市"
+  },
+  {
+    "name": "宝山分局",
+    "type": "district bureau",
+    "phone": [
+      "56608111"
+    ],
+    "address": "克山路199号 ",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.473609,
+        31.407261
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "定海路派出所",
-      "address": "河间路1500号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "定海街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76240"
+    "city_name": "上海市"
+  },
+  {
+    "name": "嘉定分局",
+    "type": "district bureau",
+    "phone": [
+      "59995000"
+    ],
+    "address": "塔城东路400号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.273592,
+        31.394367
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "长白新村派出所",
-      "address": "长白二村27号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "长白街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76140"
+    "city_name": "上海市"
+  },
+  {
+    "name": "松江分局",
+    "type": "district bureau",
+    "phone": [
+      "57823618"
+    ],
+    "address": "松江区中山东路290号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.248977,
+        31.012928
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "五角场镇派出所",
-      "address": "政立路65号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "五角场镇街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76180"
+    "city_name": "上海市"
+  },
+  {
+    "name": "金山分局",
+    "type": "district bureau",
+    "phone": [
+      "57350820"
+    ],
+    "address": "亭枫公路8219号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.041248,
+        30.881796
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "江浦路派出所",
-      "address": "辽源四村37号甲",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "江浦街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76200"
+    "city_name": "上海市"
+  },
+  {
+    "name": "奉贤分局",
+    "type": "district bureau",
+    "phone": [
+      "57426071"
+    ],
+    "address": "南桥镇城乡路3号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.468699,
+        30.91981
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "四平路派出所",
-      "address": "苏家屯路9号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "四平街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76100"
+    "city_name": "上海市"
+  },
+  {
+    "name": "青浦分局",
+    "type": "district bureau",
+    "phone": [
+      "59729780"
+    ],
+    "address": "青浦区城中北路485号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.118562,
+        31.160932
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "延吉新村派出所",
-      "address": "水丰路385号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "延吉街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76120"
+    "city_name": "上海市"
+  },
+  {
+    "name": "崇明分局",
+    "type": "district bureau",
+    "phone": [
+      "59311039"
+    ],
+    "address": "城桥镇人民路12号",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.407528,
+        31.628206
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "大桥派出所",
-      "address": "宁国路19号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "大桥街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76300"
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "沪东新村派出所",
+    "address": "兰城路265号",
+    "phone": [
+      "58463559"
+    ],
+    "subdistrict": "沪东新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.589168,
+        31.273549
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "控江路派出所",
-      "address": "周家嘴路2985号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "控江街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76220"
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "潍坊新村派出所",
+    "address": "潍坊六村628号",
+    "phone": [
+      "58305370"
+    ],
+    "subdistrict": "潍坊新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.530406,
+        31.227218
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "五角场派出所",
-      "address": "国和路40号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "五角场街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76160"
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "梅园新村派出所",
+    "address": "乳山路235弄6号",
+    "phone": [
+      "58315543"
+    ],
+    "subdistrict": "梅园新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.533776,
+        31.243449
       ]
     },
-    {
-      "district": "杨浦",
-      "name": "殷行派出所",
-      "address": "包头路777号",
-      "phone": [
-        "65431000"
-      ],
-      "subdistrict": "殷行街道",
-      "type": "local station",
-      "phone_in_fact": [
-        "65431000-76260"
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "三林派出所",
+    "address": "三鲁路157号",
+    "phone": [
+      "50841100"
+    ],
+    "subdistrict": "三林镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.511358,
+        31.136239
       ]
     },
-    {
-      "district": "闵行",
-      "name": "碧江路派出所",
-      "address": "兰坪路352弄1号",
-      "phone": [
-        "64309306",
-        "34051120"
-      ],
-      "subdistrict": "江川街道",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "曹行派出所",
-      "address": "曹建路240号",
-      "phone": [
-        "64970088"
-      ],
-      "subdistrict": "梅陇镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "陈行派出所",
-      "address": "陈南路46号",
-      "phone": [
-        "64294670"
-      ],
-      "subdistrict": "浦江镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "杜行派出所",
-      "address": "鹤坡路99号",
-      "phone": [
-        "64110217"
-      ],
-      "subdistrict": "浦江镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "金都派出所",
-      "address": "金都路3679弄8号",
-      "phone": [
-        "54425090"
-      ],
-      "subdistrict": "工业园区",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "古美路派出所",
-      "address": "顾戴路368号",
-      "phone": [
-        "34130576",
-        "34160570"
-      ],
-      "subdistrict": "古美街道",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "航华新村派出所",
-      "address": "航南路380号",
-      "phone": [
-        "64210549"
-      ],
-      "subdistrict": "龙柏街道",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "虹桥派出所",
-      "address": "吴中路600号",
-      "phone": [
-        "64655110",
-        "64061000"
-      ],
-      "subdistrict": "虹桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "华漕派出所",
-      "address": "华漕镇华美路183号",
-      "phone": [
-        "62201170"
-      ],
-      "subdistrict": "华漕镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "华坪路派出所",
-      "address": "新闵路560号",
-      "phone": [
-        "64356172"
-      ],
-      "subdistrict": "江川街道",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "纪王派出所",
-      "address": "纪翟路1555号",
-      "phone": [
-        "62960512"
-      ],
-      "subdistrict": "华漕镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "龙柏新村派出所",
-      "address": "兰竹路2号",
-      "phone": [
-        "64029712"
-      ],
-      "subdistrict": "龙柏街道",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "鲁汇派出所",
-      "address": "浦江镇望角楼",
-      "phone": [
-        "64911163"
-      ],
-      "subdistrict": "浦江镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "马桥派出所",
-      "address": "北松路1986号",
-      "phone": [
-        "64091959"
-      ],
-      "subdistrict": "马桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "梅陇派出所",
-      "address": "罗阳路333号",
-      "phone": [
-        "54397110"
-      ],
-      "subdistrict": "梅陇镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "七宝派出所",
-      "address": "沪松公路600号",
-      "phone": [
-        "64615880"
-      ],
-      "subdistrict": "七宝镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "塘湾派出所",
-      "address": "三新街78号",
-      "phone": [
-        "64500621"
-      ],
-      "subdistrict": "吴泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "田园新村派出所",
-      "address": "金都路2889号",
-      "phone": [
-        "54429110"
-      ],
-      "subdistrict": "颛桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "吴泾派出所",
-      "address": "剑川路80号",
-      "phone": [
-        "64505622"
-      ],
-      "subdistrict": "吴泾镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "莘光派出所",
-      "address": "报春路505号",
-      "phone": [
-        "64122810"
-      ],
-      "subdistrict": "莘庄镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "莘松派出所",
-      "address": "莘松一村12号",
-      "phone": [
-        "64921683"
-      ],
-      "subdistrict": "莘庄镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "莘庄派出所",
-      "address": "七莘路789号",
-      "phone": [
-        "54530608",
-        "54530610"
-      ],
-      "subdistrict": "莘庄镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "新镇派出所",
-      "address": "漕宝路3223号",
-      "phone": [
-        "64191267"
-      ],
-      "subdistrict": "七宝镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "诸翟派出所",
-      "address": "华漕镇诸新路58号",
-      "phone": [
-        "62211021"
-      ],
-      "subdistrict": "华漕镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "颛桥派出所",
-      "address": "颛桥镇中沟路99号",
-      "phone": [
-        "64896238"
-      ],
-      "subdistrict": "颛桥镇",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "水上治安派出所",
-      "address": "闵行区河东路38号",
-      "phone": [
-        "64356972"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "闵行开发区治安派出所",
-      "address": "中和路119号",
-      "phone": [
-        "64636621"
-      ],
-      "subdistrict": "",
-      "type": "local station"
-    },
-    {
-      "district": "闵行",
-      "name": "华银路派出所",
-      "address": "华银路100号",
-      "phone": [
-        "64301161"
-      ],
-      "subdistrict": "",
-      "type": "local station",
-      "phone_in_fact": [
-        "64301161-2018"
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "东明路派出所",
+    "address": "永泰路875号",
+    "phone": [
+      "50842411"
+    ],
+    "subdistrict": "东明街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.52785,
+        31.147731
       ]
-    }
-  ]
-}
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "上钢新村派出所",
+    "address": "历城路50号",
+    "phone": [
+      "58835247"
+    ],
+    "subdistrict": "上钢新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.499001,
+        31.182115
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "周家渡派出所",
+    "address": "昌里东路185号",
+    "phone": [
+      "58837001"
+    ],
+    "subdistrict": "周家渡街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.514475,
+        31.182186
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "南码头路派出所",
+    "address": "浦三路60号",
+    "phone": [
+      "58893374"
+    ],
+    "subdistrict": "南码头街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.518594,
+        31.201761
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "杨思派出所",
+    "address": "板泉路333号",
+    "phone": [
+      "58428065"
+    ],
+    "subdistrict": "三林镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.50033,
+        31.163482
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "唐镇派出所",
+    "address": "唐陆路3300号",
+    "phone": [
+      "58961106"
+    ],
+    "subdistrict": "唐镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.669592,
+        31.209097
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "塘桥派出所",
+    "address": "南泉路1355号",
+    "phone": [
+      "58890406"
+    ],
+    "subdistrict": "塘桥街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.528285,
+        31.215304
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "花木派出所",
+    "address": "浦建路1207号",
+    "phone": [
+      "68451970"
+    ],
+    "subdistrict": "花木镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.549015,
+        31.212122
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "川沙派出所",
+    "address": "川沙镇车站路1号",
+    "phone": [
+      "58907376"
+    ],
+    "subdistrict": "川沙镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.711236,
+        31.203783
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "合庆派出所",
+    "address": "前哨路160号",
+    "phone": [
+      "58971101"
+    ],
+    "subdistrict": "合庆镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.727078,
+        31.244817
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "金桥派出所",
+    "address": "永宁路124号",
+    "phone": [
+      "58992505"
+    ],
+    "subdistrict": "金桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.617429,
+        31.272234
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "高桥派出所",
+    "address": "高桥镇通园路21弄8号",
+    "phone": [
+      "58671010"
+    ],
+    "subdistrict": "高桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.580798,
+        31.350112
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "北蔡派出所",
+    "address": "莲园路225号",
+    "phone": [
+      "58911514"
+    ],
+    "subdistrict": "北蔡镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.558794,
+        31.191475
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "高行派出所",
+    "address": "东沟行南路400号",
+    "phone": [
+      "58670204"
+    ],
+    "subdistrict": "高行镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.618577,
+        31.302518
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "张江派出所",
+    "address": "龙东大道1920号",
+    "phone": [
+      "58551201"
+    ],
+    "subdistrict": "张江镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.61302,
+        31.22463
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "金杨新村派出所",
+    "address": "云山路1349号",
+    "phone": [
+      "58994492"
+    ],
+    "subdistrict": "金杨新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.582335,
+        31.250724
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "六里派出所",
+    "address": "浦三路749号",
+    "phone": [
+      "50867327"
+    ],
+    "subdistrict": "北蔡镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.52539,
+        31.190489
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "黄楼派出所",
+    "address": "川周公路6429号",
+    "phone": [
+      "58941125"
+    ],
+    "subdistrict": "川沙镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.678652,
+        31.170584
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "六团派出所",
+    "address": "川六公路1615号",
+    "phone": [
+      "58594110"
+    ],
+    "subdistrict": "川沙镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.730145,
+        31.159641
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "顾路派出所",
+    "address": "顾曹路595号",
+    "phone": [
+      "58631132"
+    ],
+    "subdistrict": "曹路镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.671259,
+        31.29874
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "蔡路派出所",
+    "address": "东川路7777号",
+    "phone": [
+      "68900781"
+    ],
+    "subdistrict": "合庆镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.479729,
+        31.035628
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "王港派出所",
+    "address": "新雅路258号",
+    "phone": [
+      "58582125"
+    ],
+    "subdistrict": "唐镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.687379,
+        31.242438
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "龚路派出所",
+    "address": "龚丰路295号",
+    "phone": [
+      "58562851"
+    ],
+    "subdistrict": "曹路镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.69344,
+        31.263846
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "凌桥派出所",
+    "address": "江东路1380弄50号",
+    "phone": [
+      "58642005"
+    ],
+    "subdistrict": "高桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.549399,
+        31.370742
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "孙桥派出所",
+    "address": "横沔江路52号",
+    "phone": [
+      "58570402"
+    ],
+    "subdistrict": "张江镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.639369,
+        31.188548
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "高东派出所",
+    "address": "光明路728号",
+    "phone": [
+      "58480209"
+    ],
+    "subdistrict": "高东镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.630894,
+        31.331855
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "杨园派出所",
+    "address": "新园路388号",
+    "phone": [
+      "68481626"
+    ],
+    "subdistrict": "高东镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.639955,
+        31.320092
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "浦兴路派出所",
+    "address": "浦兴路588号",
+    "phone": [
+      "68953728"
+    ],
+    "subdistrict": "浦兴街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.594131,
+        31.271844
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "罗山新村派出所",
+    "address": "栖山路1025号",
+    "phone": [
+      "50614567"
+    ],
+    "subdistrict": "罗山新村",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.56388,
+        31.258927
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "洋泾派出所",
+    "address": "巨野路261号",
+    "phone": [
+      "58520229"
+    ],
+    "subdistrict": "洋泾街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.552534,
+        31.246678
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "江镇派出所",
+    "address": "江明路200号",
+    "phone": [
+      "58932999"
+    ],
+    "subdistrict": "机场镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.755383,
+        31.183519
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "陆家嘴治安派出所",
+    "address": "商城路357号",
+    "phone": [
+      "58783713"
+    ],
+    "subdistrict": "梅园新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.518016,
+        31.235004
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "金桥出口加工区治安派出所",
+    "address": "红枫路18号",
+    "phone": [
+      "58995705"
+    ],
+    "subdistrict": "金桥出口加工区",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.593725,
+        31.251328
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "世纪广场治安派出所",
+    "address": "丁香路602号",
+    "phone": [
+      "68543142"
+    ],
+    "subdistrict": "花木镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.552054,
+        31.230581
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "张江高科技园区治安派出所",
+    "address": "牛顿路111号",
+    "phone": [
+      "38953214"
+    ],
+    "subdistrict": "张江高科委员会",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.598034,
+        31.214966
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "浦东",
+    "name": "水上治安派出所",
+    "address": "华益路326号",
+    "phone": [
+      "58958578"
+    ],
+    "subdistrict": "张江高科委员会",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.64049,
+        31.198917
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "卢湾",
+    "name": "打浦桥派出所",
+    "address": "丽园路895号",
+    "phone": [
+      "63018716"
+    ],
+    "subdistrict": "打浦街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.481214,
+        31.212406
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "卢湾",
+    "name": "淮海中路派出所",
+    "address": "普安路177号",
+    "phone": [
+      "53060595"
+    ],
+    "subdistrict": "淮海中路街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.484852,
+        31.229248
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "卢湾",
+    "name": "瑞金二路派出所",
+    "address": "淮海中路505号",
+    "phone": [
+      "53863868"
+    ],
+    "subdistrict": "瑞金二路街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.475905,
+        31.226968
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "卢湾",
+    "name": "五里桥派出所",
+    "address": "中山南一路1109弄3号楼",
+    "phone": [
+      "63010589"
+    ],
+    "subdistrict": "五里桥街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.477812,
+        31.201516
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "卢湾",
+    "name": "新天地治安派出所",
+    "address": "黄陂南路363号",
+    "phone": [
+      "63866069"
+    ],
+    "subdistrict": "淮海中路街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.48221,
+        31.22645
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "湖南路派出所",
+    "address": "复兴西路84弄2号",
+    "phone": [
+      "64370540"
+    ],
+    "subdistrict": "湖南街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.44933,
+        31.21717
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "天平路派出所",
+    "address": "衡山路696弄1号",
+    "phone": [
+      "64336776"
+    ],
+    "subdistrict": "天平街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.448558,
+        31.205382
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "徐家汇派出所",
+    "address": "零陵路801号",
+    "phone": [
+      "64380527"
+    ],
+    "subdistrict": "徐家汇街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.444908,
+        31.189774
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "枫林路派出所",
+    "address": "双峰路396号",
+    "phone": [
+      "64643798"
+    ],
+    "subdistrict": "枫林街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.455684,
+        31.187325
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "斜土路派出所",
+    "address": "零陵路51号",
+    "phone": [
+      "64042433"
+    ],
+    "subdistrict": "斜土街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.472354,
+        31.200922
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "龙华派出所",
+    "address": "龙华路2796号",
+    "phone": [
+      "64576480"
+    ],
+    "subdistrict": "龙华街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.459416,
+        31.181174
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "田林新村派出所",
+    "address": "田林14村120号",
+    "phone": [
+      "64366396"
+    ],
+    "subdistrict": "田林街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.429596,
+        31.180435
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "漕河泾派出所",
+    "address": "康健路80号",
+    "phone": [
+      "64360683"
+    ],
+    "subdistrict": "漕河泾街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.435205,
+        31.171752
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "虹梅派出所",
+    "address": "虹漕路7号",
+    "phone": [
+      "64369873"
+    ],
+    "subdistrict": "虹梅街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.418032,
+        31.171631
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "康健新村派出所",
+    "address": "桂林东街201号",
+    "phone": [
+      "64362677"
+    ],
+    "subdistrict": "康健新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.429271,
+        31.163909
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "长桥新村派出所",
+    "address": "罗香路100号",
+    "phone": [
+      "64102445"
+    ],
+    "subdistrict": "长桥新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.446712,
+        31.142156
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "华泾派出所",
+    "address": "龙吴路 2449号",
+    "phone": [
+      "54829900"
+    ],
+    "subdistrict": "华泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.462728,
+        31.12306
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "凌云路派出所",
+    "address": "凌云路388号",
+    "phone": [
+      "64530587"
+    ],
+    "subdistrict": "凌云街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.425839,
+        31.143272
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "上海体育中心治安派出所",
+    "address": "零陵路858号",
+    "phone": [
+      "64265366"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.446109,
+        31.189446
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "徐汇",
+    "name": "南站治安派出所",
+    "address": "石龙路79弄1号",
+    "phone": [
+      "54081757"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.45291,
+        31.164135
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "周家桥派出所",
+    "address": "长宁路1448弄8号",
+    "phone": [
+      "62598037"
+    ],
+    "subdistrict": "周桥街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.416787,
+        31.224306
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "天山路派出所",
+    "address": "紫云路365号",
+    "phone": [
+      "62598760"
+    ],
+    "subdistrict": "天山街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.415798,
+        31.214475
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "华阳路派出所",
+    "address": "定西路1291号",
+    "phone": [
+      "62525767"
+    ],
+    "subdistrict": "华阳街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.427808,
+        31.222321
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "新泾派出所",
+    "address": "剑河路500号",
+    "phone": [
+      "52199033"
+    ],
+    "subdistrict": "新泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.376037,
+        31.216574
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "程家桥派出所",
+    "address": "哈密路1721号",
+    "phone": [
+      "62686519"
+    ],
+    "subdistrict": "程桥街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.37412,
+        31.201544
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "江苏路派出所",
+    "address": "利西路108号",
+    "phone": [
+      "62106334"
+    ],
+    "subdistrict": "江苏街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.436671,
+        31.221215
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "新华路派出所",
+    "address": "法华镇路475号",
+    "phone": [
+      "52587575"
+    ],
+    "subdistrict": "新华街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.432618,
+        31.211526
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "北新泾派出所",
+    "address": "平塘路205号",
+    "phone": [
+      "62389606"
+    ],
+    "subdistrict": "北新泾街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.371157,
+        31.226166
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "仙霞路派出所",
+    "address": "芙蓉江路100弄2号",
+    "phone": [
+      "62340769"
+    ],
+    "subdistrict": "仙霞街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.401763,
+        31.21318
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "虹桥路派出所",
+    "address": "虹桥路1151号",
+    "phone": [
+      "62193258"
+    ],
+    "subdistrict": "虹桥街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.415947,
+        31.203145
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "长宁",
+    "name": "新虹桥治安派出所",
+    "address": "古北路778号",
+    "phone": [
+      "62193258"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.405828,
+        31.208596
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "静安",
+    "name": "静安寺派出所",
+    "address": "万航渡路55弄5号",
+    "phone": [
+      "62888078"
+    ],
+    "subdistrict": "静安寺街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.449996,
+        31.231019
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "静安",
+    "name": "南京西路派出所",
+    "address": "延安中路931号",
+    "phone": [
+      "62476100"
+    ],
+    "subdistrict": "南京西路街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.45862,
+        31.228835
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "静安",
+    "name": "石门二路派出所",
+    "address": "大田路351号",
+    "phone": [
+      "62568567"
+    ],
+    "subdistrict": "石门二路街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.468877,
+        31.242262
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "静安",
+    "name": "曹家渡派出所",
+    "address": "万航渡路684号",
+    "phone": [
+      "62522075"
+    ],
+    "subdistrict": "曹家渡街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.438742,
+        31.233152
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "静安",
+    "name": "江宁路派出所",
+    "address": "新闸路1332号",
+    "phone": [
+      "62580510"
+    ],
+    "subdistrict": "江宁街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.457293,
+        31.238227
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "天目西路派出所",
+    "address": "恒丰路77号",
+    "phone": [
+      "63800364"
+    ],
+    "subdistrict": "天目西街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.465062,
+        31.246459
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "北站派出所",
+    "address": "浙江北路321号",
+    "phone": [
+      "63933628"
+    ],
+    "subdistrict": "北站街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.481427,
+        31.25269
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "宝山路派出所",
+    "address": "青云路481号",
+    "phone": [
+      "56629330"
+    ],
+    "subdistrict": "宝山街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.476646,
+        31.268391
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "芷江西路派出所",
+    "address": "芷江西路163号",
+    "phone": [
+      "56906596"
+    ],
+    "subdistrict": "芷江西街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.470979,
+        31.264136
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "共和新路派出所",
+    "address": "共和新路1302号",
+    "phone": [
+      "56626109"
+    ],
+    "subdistrict": "共和新街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.465645,
+        31.269901
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "大宁路派出所",
+    "address": "共和新路2299号",
+    "phone": [
+      "56653233"
+    ],
+    "subdistrict": "大宁街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.459144,
+        31.283623
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "彭浦镇派出所",
+    "address": "灵石路731号",
+    "phone": [
+      "56771683"
+    ],
+    "subdistrict": "彭浦镇街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.445632,
+        31.289676
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "彭浦新村派出所",
+    "address": "彭浦新村161号甲",
+    "phone": [
+      "56913791"
+    ],
+    "subdistrict": "彭浦新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.455932,
+        31.315108
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "三泉路派出所",
+    "address": "曲沃路460号",
+    "phone": [
+      "66242282"
+    ],
+    "subdistrict": "彭浦新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.451412,
+        31.319648
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "临汾路派出所",
+    "address": "景风路398号",
+    "phone": [
+      "56884356"
+    ],
+    "subdistrict": "临汾街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.487899,
+        31.249162
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闸北",
+    "name": "上海站地区治安派出所",
+    "address": "恒丰路787号",
+    "phone": [
+      "33030081"
+    ],
+    "subdistrict": "上海站管委会",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.458272,
+        31.25548
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "乍浦路派出所",
+    "address": "昆山路104号",
+    "phone": [
+      "63242886"
+    ],
+    "subdistrict": "乍浦街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.495437,
+        31.2554
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "四川北路派出所",
+    "address": "溧阳路1338号",
+    "phone": [
+      "56665799"
+    ],
+    "subdistrict": "四川北路街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.492191,
+        31.269122
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "欧阳路派出所",
+    "address": "天宝西路277号",
+    "phone": [
+      "65226954"
+    ],
+    "subdistrict": "欧阳街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.498725,
+        31.280202
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "新港路派出所",
+    "address": "天宝路543号",
+    "phone": [
+      "65625137"
+    ],
+    "subdistrict": "新港街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.506321,
+        31.274769
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "嘉兴路派出所",
+    "address": "海伦路87号",
+    "phone": [
+      "65011463"
+    ],
+    "subdistrict": "嘉兴街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.501957,
+        31.261557
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "曲阳路派出所",
+    "address": "巴林路56号",
+    "phone": [
+      "65552848"
+    ],
+    "subdistrict": "曲阳街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.502907,
+        31.293968
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "提篮桥派出所",
+    "address": "海门路70号",
+    "phone": [
+      "65415881"
+    ],
+    "subdistrict": "提蓝桥街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.515192,
+        31.259124
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "广中路派出所",
+    "address": "中山北一路208号",
+    "phone": [
+      "56961489"
+    ],
+    "subdistrict": "广中街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.484724,
+        31.280316
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "凉城新村派出所",
+    "address": "凉城路665号",
+    "phone": [
+      "65296693"
+    ],
+    "subdistrict": "凉城街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.477423,
+        31.300877
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "虹口",
+    "name": "江湾派出所",
+    "address": "万安路745号",
+    "phone": [
+      "65608547"
+    ],
+    "subdistrict": "江湾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.483704,
+        31.30667
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "高境派出所",
+    "address": "新二路101号",
+    "phone": [
+      "66180110"
+    ],
+    "subdistrict": "高境镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.482041,
+        31.330017
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "吴淞派出所",
+    "address": "淞兴西路201号",
+    "phone": [
+      "56671069"
+    ],
+    "subdistrict": "吴淞街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.496479,
+        31.374512
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "罗泾派出所",
+    "address": "新川沙路535号",
+    "phone": [
+      "56871808"
+    ],
+    "subdistrict": "罗泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.349125,
+        31.483066
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "刘行派出所",
+    "address": "宝安公路1435号",
+    "phone": [
+      "56022003"
+    ],
+    "subdistrict": "顾村镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.381852,
+        31.365166
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "罗店派出所",
+    "address": "罗太路232号",
+    "phone": [
+      "36130382"
+    ],
+    "subdistrict": "罗店镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.350341,
+        31.414395
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "月浦派出所",
+    "address": "月罗路168号",
+    "phone": [
+      "56646482"
+    ],
+    "subdistrict": "月浦镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.430268,
+        31.427377
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "双城派出所",
+    "address": "淞宝路1101号",
+    "phone": [
+      "56167100"
+    ],
+    "subdistrict": "友谊街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.505359,
+        31.400033
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "顾村派出所",
+    "address": "顾村电台南路2号",
+    "phone": [
+      "56042284"
+    ],
+    "subdistrict": "顾村镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.402232,
+        31.352131
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "淞南派出所",
+    "address": "淞良路188号",
+    "phone": [
+      "56140391"
+    ],
+    "subdistrict": "淞南镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.495098,
+        31.346178
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "祁连派出所",
+    "address": "锦秋路1281号",
+    "phone": [
+      "56131110"
+    ],
+    "subdistrict": "大场镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.387979,
+        31.324918
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "泗塘新村派出所",
+    "address": "虎林路236号",
+    "phone": [
+      "56994215"
+    ],
+    "subdistrict": "泗塘街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.465626,
+        31.340107
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "庙行派出所",
+    "address": "三泉路1501号",
+    "phone": [
+      "56416610"
+    ],
+    "subdistrict": "庙行镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.445676,
+        31.331861
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "海滨新村派出所",
+    "address": "同济支路55号",
+    "phone": [
+      "56172645"
+    ],
+    "subdistrict": "海滨新村街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.501478,
+        31.385622
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "友谊路派出所",
+    "address": "友谊路197弄10号",
+    "phone": [
+      "56691621"
+    ],
+    "subdistrict": "友谊街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.489697,
+        31.411405
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "杨行派出所",
+    "address": "杨泰路198号",
+    "phone": [
+      "56801733"
+    ],
+    "subdistrict": "杨行镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.451612,
+        31.37431
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "盛桥派出所",
+    "address": "蕴川路5501号",
+    "phone": [
+      "56150250"
+    ],
+    "subdistrict": "月浦镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.413539,
+        31.456172
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "罗南派出所",
+    "address": "南东路107号",
+    "phone": [
+      "56010108"
+    ],
+    "subdistrict": "罗南镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.368226,
+        31.392573
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "通河新村派出所",
+    "address": "通河路689号",
+    "phone": [
+      "56995808"
+    ],
+    "subdistrict": "通河街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.450481,
+        31.347441
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "大场派出所",
+    "address": "沪太支路1300号",
+    "phone": [
+      "56680748"
+    ],
+    "subdistrict": "大场镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.425695,
+        31.306148
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "大华新村派出所",
+    "address": "汶水路1666号",
+    "phone": [
+      "66390092"
+    ],
+    "subdistrict": "大场镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.423037,
+        31.293647
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "吴淞码头治安派出所",
+    "address": "淞宝路永清路口",
+    "phone": [
+      "56585101"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.502151,
+        31.405953
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "宝山",
+    "name": "水上治安派出所",
+    "address": "淞浦路650号",
+    "phone": [
+      "56672959"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.498892,
+        31.373417
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "安亭派出所",
+    "address": "墨玉路68号",
+    "phone": [
+      "59577197"
+    ],
+    "subdistrict": "安亭镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.169484,
+        31.298866
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "曹王派出所",
+    "address": "曹新路1388弄28号",
+    "phone": [
+      "59946308"
+    ],
+    "subdistrict": "徐行镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.272844,
+        31.424499
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "方泰派出所",
+    "address": "嘉松北路4418号",
+    "phone": [
+      "59509585"
+    ],
+    "subdistrict": "安亭镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.225724,
+        31.322209
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "封浜派出所",
+    "address": "乡思路201号",
+    "phone": [
+      "59137585"
+    ],
+    "subdistrict": "江桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.300258,
+        31.276139
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "华亭派出所",
+    "address": "华谊路188号",
+    "phone": [
+      "59971202"
+    ],
+    "subdistrict": "华亭镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.487899,
+        31.249162
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "黄渡派出所",
+    "address": "嘉松北路7285号",
+    "phone": [
+      "59595214"
+    ],
+    "subdistrict": "黄渡镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.216817,
+        31.276423
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "嘉城派出所",
+    "address": "塔城路555号",
+    "phone": [
+      "59530623"
+    ],
+    "subdistrict": "嘉城街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.24863,
+        31.380755
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "戬浜派出所",
+    "address": "嘉戬支路222号",
+    "phone": [
+      "59511585"
+    ],
+    "subdistrict": "马陆镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.303897,
+        31.381235
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "菊园派出所",
+    "address": "胜竹路1980号",
+    "phone": [
+      "69991464"
+    ],
+    "subdistrict": "新区管委会",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.259891,
+        31.408353
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "娄塘派出所",
+    "address": "南新路167号",
+    "phone": [
+      "59543880"
+    ],
+    "subdistrict": "工业园区",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.225449,
+        31.437648
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "马陆派出所",
+    "address": "沪宜公路1888号",
+    "phone": [
+      "59156585"
+    ],
+    "subdistrict": "马陆镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.293552,
+        31.333434
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "南翔派出所",
+    "address": "众仁路555号",
+    "phone": [
+      "59121088"
+    ],
+    "subdistrict": "南翔镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.329954,
+        31.298503
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "唐行派出所",
+    "address": "唐窑路26号",
+    "phone": [
+      "59951210"
+    ],
+    "subdistrict": "华亭镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.243811,
+        31.468538
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "外冈派出所",
+    "address": "祁昌路5号",
+    "phone": [
+      "59588808"
+    ],
+    "subdistrict": "外冈镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.183159,
+        31.366376
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "新成路派出所",
+    "address": "迎园路555号",
+    "phone": [
+      "59988808"
+    ],
+    "subdistrict": "新成街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.272849,
+        31.390365
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "徐行派出所",
+    "address": "澄浏路518号",
+    "phone": [
+      "59558604"
+    ],
+    "subdistrict": "徐行镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.280724,
+        31.421156
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "叶城派出所",
+    "address": "叶城路900号",
+    "phone": [
+      "59164585"
+    ],
+    "subdistrict": "工业园区",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.256572,
+        31.370242
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "真新新村派出所",
+    "address": "清峪路999号",
+    "phone": [
+      "59181457"
+    ],
+    "subdistrict": "真新街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.366222,
+        31.250716
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "朱家桥派出所",
+    "address": "嘉朱路1725号",
+    "phone": [
+      "59962011"
+    ],
+    "subdistrict": "工业园区",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.487899,
+        31.249162
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "江桥派出所",
+    "address": "华江支路16号",
+    "phone": [
+      "59144585"
+    ],
+    "subdistrict": "江桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.346831,
+        31.261042
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "上海国际赛车场治安派出所",
+    "address": "F1赛车场东环二路",
+    "phone": [
+      "69569110"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.232133,
+        31.339843
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "嘉定",
+    "name": "水上治安派出所",
+    "address": "嘉罗路1180号",
+    "phone": [
+      "59927110"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.262549,
+        31.378734
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "车墩派出所",
+    "address": "北松公路4669号",
+    "phone": [
+      "57602103"
+    ],
+    "subdistrict": "车墩镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.322743,
+        31.02079
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "大港派出所",
+    "address": "新港路18号",
+    "phone": [
+      "57855529"
+    ],
+    "subdistrict": "工业园区",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.511678,
+        31.274255
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "小昆山派出所",
+    "address": "崇南路16号",
+    "phone": [
+      "57762098"
+    ],
+    "subdistrict": "小昆山镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.149986,
+        31.033468
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "岳阳派出所",
+    "address": "谷阳北路42号",
+    "phone": [
+      "57818220"
+    ],
+    "subdistrict": "岳阳街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.243042,
+        31.016372
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "佘山派出所",
+    "address": "陈坊桥西霞路30号",
+    "phone": [
+      "57652928"
+    ],
+    "subdistrict": "佘山镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.194081,
+        31.106874
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "叶榭派出所",
+    "address": "叶榭镇政府路8号",
+    "phone": [
+      "67800052"
+    ],
+    "subdistrict": "叶榭镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.326487,
+        30.948681
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "华阳派出所",
+    "address": "朝阳路20号",
+    "phone": [
+      "57775366"
+    ],
+    "subdistrict": "车墩镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.288977,
+        31.008511
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "九亭派出所",
+    "address": "九亭镇九亭大街110号",
+    "phone": [
+      "57633808"
+    ],
+    "subdistrict": "九亭镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.344681,
+        31.139774
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "李塔汇派出所",
+    "address": "石湖荡镇塔汇路419号",
+    "phone": [
+      "57846310"
+    ],
+    "subdistrict": "石湖荡镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.18561,
+        30.977651
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "泖港派出所",
+    "address": "泖港镇中南路38号",
+    "phone": [
+      "57863400"
+    ],
+    "subdistrict": "泖港镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.22608,
+        30.93741
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "荣乐东路派出所",
+    "address": "方塔北路俞塘支路110号",
+    "phone": [
+      "57740943"
+    ],
+    "subdistrict": "工业园区",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.256773,
+        31.020801
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "石湖荡派出所",
+    "address": "石湖荡镇古松路60号",
+    "phone": [
+      "57751767"
+    ],
+    "subdistrict": "石湖荡镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.129645,
+        30.989184
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "泗泾派出所",
+    "address": "四泾镇文化路168号",
+    "phone": [
+      "57620110"
+    ],
+    "subdistrict": "泗泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.487899,
+        31.249162
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "天马山派出所",
+    "address": "佘山镇天新路16号",
+    "phone": [
+      "57660060"
+    ],
+    "subdistrict": "佘山镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.153032,
+        31.075698
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "五厍派出所",
+    "address": "泖港镇中厍路165号",
+    "phone": [
+      "57877797"
+    ],
+    "subdistrict": "五厍居委",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.146403,
+        30.946533
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "新浜派出所",
+    "address": "新浜镇新引路1110号",
+    "phone": [
+      "57892802"
+    ],
+    "subdistrict": "新浜镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.074396,
+        30.939279
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "新桥派出所",
+    "address": "新镇街133号",
+    "phone": [
+      "57643220"
+    ],
+    "subdistrict": "新桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.314593,
+        31.058989
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "永丰派出所",
+    "address": "松江镇荣乐西路126号",
+    "phone": [
+      "67710829"
+    ],
+    "subdistrict": "永丰街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.216202,
+        31.022831
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "方松派出所",
+    "address": "西林北路1080号",
+    "phone": [
+      "67718986"
+    ],
+    "subdistrict": "方松街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.225061,
+        31.031728
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "洞泾派出所",
+    "address": "洞泾镇同盛路198号",
+    "phone": [
+      "57671100"
+    ],
+    "subdistrict": "洞泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.273962,
+        31.088057
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "张泽派出所",
+    "address": "叶榭镇辕门路150弄8号",
+    "phone": [
+      "57881919"
+    ],
+    "subdistrict": "叶榭镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.283162,
+        30.935902
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "中山派出所",
+    "address": "茸梅路151号",
+    "phone": [
+      "57786751"
+    ],
+    "subdistrict": "中山街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.252869,
+        31.039341
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "大学城派出所",
+    "address": "文汇路560号",
+    "phone": [
+      "67796199"
+    ],
+    "subdistrict": "方松街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.21648,
+        31.055938
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "贵德路派出所",
+    "address": "贵德路76号",
+    "phone": [
+      "57733959"
+    ],
+    "subdistrict": "800研究所",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.220971,
+        30.9756
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "松江",
+    "name": "水上治安派出所",
+    "address": "人民南路62号",
+    "phone": [
+      "57811709"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.235528,
+        31.008059
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "漕泾派出所",
+    "address": "文明路1号",
+    "phone": [
+      "57252110"
+    ],
+    "subdistrict": "漕泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.417448,
+        30.799986
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "枫泾派出所",
+    "address": "新枫路30号",
+    "phone": [
+      "57371110"
+    ],
+    "subdistrict": "枫泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.021493,
+        30.891458
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "干巷派出所",
+    "address": "金张公路2523号",
+    "phone": [
+      "57204110"
+    ],
+    "subdistrict": "干巷镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.243027,
+        30.831047
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "金山卫派出所",
+    "address": "老卫清路29号",
+    "phone": [
+      "57265110"
+    ],
+    "subdistrict": "金山卫镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.329414,
+        30.730793
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "廊下派出所",
+    "address": "廊华路188号",
+    "phone": [
+      "57390110"
+    ],
+    "subdistrict": "廊下镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.192536,
+        30.7879
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "吕巷派出所",
+    "address": "吕朱公路6899号",
+    "phone": [
+      "57370110"
+    ],
+    "subdistrict": "吕巷镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.487899,
+        31.249162
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "蒙山路派出所",
+    "address": "石化东礁二村30号",
+    "phone": [
+      "57966110"
+    ],
+    "subdistrict": "石化街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.350258,
+        30.729793
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "钱圩派出所",
+    "address": "吕张公路1196弄10号",
+    "phone": [
+      "57291110"
+    ],
+    "subdistrict": "金山卫镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.265534,
+        30.780812
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "山阳派出所",
+    "address": "红旗西路110号",
+    "phone": [
+      "57245110"
+    ],
+    "subdistrict": "山阳镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.362127,
+        30.766544
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "松隐派出所",
+    "address": "松心路187号",
+    "phone": [
+      "57380110"
+    ],
+    "subdistrict": "松隐镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.487899,
+        31.249162
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "亭林派出所",
+    "address": "松金公路5265号",
+    "phone": [
+      "57230110"
+    ],
+    "subdistrict": "亭林镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.245023,
+        30.908399
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "象州路派出所",
+    "address": "象州路50号",
+    "phone": [
+      "57930110"
+    ],
+    "subdistrict": "石化街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.355937,
+        30.717241
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "新农派出所",
+    "address": "文化街36号",
+    "phone": [
+      "57340110"
+    ],
+    "subdistrict": "新农镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.220935,
+        31.269423
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "兴塔派出所",
+    "address": "新金山路296号",
+    "phone": [
+      "57363110"
+    ],
+    "subdistrict": "兴塔镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.083669,
+        30.874638
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "张堰派出所",
+    "address": "松金公路2518号",
+    "phone": [
+      "57210110"
+    ],
+    "subdistrict": "张堰镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.245646,
+        30.953416
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "朱泾派出所",
+    "address": "临源街550号",
+    "phone": [
+      "57320110"
+    ],
+    "subdistrict": "朱泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.174853,
+        30.906078
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "朱行派出所",
+    "address": "亭卫公路6655号",
+    "phone": [
+      "57272110"
+    ],
+    "subdistrict": "朱行镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.34915,
+        30.861025
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "石化治安派出所",
+    "address": "沪杭公路8718号",
+    "phone": [
+      "57934110"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.464616,
+        30.873332
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "金山",
+    "name": "水上治安派出所",
+    "address": "码头路18号",
+    "phone": [
+      "57311110"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.1842,
+        30.897634
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "半淞园派出所",
+    "address": "西藏南路1427号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "半淞园街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-34812"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.4951,
+        31.210294
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "董家渡派出所",
+    "address": "董家渡路308号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "董家渡街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-34452"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.508836,
+        31.220326
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "人民广场派出所",
+    "address": "南京西路499号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "人民广场街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-33966"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.473959,
+        31.236764
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "金陵东路派出所",
+    "address": "福建南路72号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "金陵东路街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-33492"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.490583,
+        31.235296
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "南京东路派出所",
+    "address": "贵州路85号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "南京东路街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-33422"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.482765,
+        31.241526
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "外滩派出所",
+    "address": "天津路195弄50号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "外滩街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-33442"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.489088,
+        31.243665
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "小东门派出所",
+    "address": "中华路581号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "小东门街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-34702"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.504606,
+        31.22152
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "豫园派出所",
+    "address": "马园街1号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "豫园街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-34772"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.500923,
+        31.231962
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "老西门派出所",
+    "address": "林荫路77号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "老西门街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-34609"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.493331,
+        31.21822
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "人民广场治安派出所",
+    "address": "武胜路18号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "人民广场街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-33402"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.483402,
+        31.235286
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "黄浦",
+    "name": "外滩治安派出所",
+    "address": "南苏州路40号",
+    "phone": [
+      "63280123"
+    ],
+    "subdistrict": "外滩街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "63280123-33412"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.495488,
+        31.249058
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "长寿路派出所",
+    "address": "宜昌路555号",
+    "phone": [
+      "22048050",
+      "62776910"
+    ],
+    "subdistrict": "东新街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.440493,
+        31.250832
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "甘泉路派出所",
+    "address": "宜川路351弄31号",
+    "phone": [
+      "22048250",
+      "56051740"
+    ],
+    "subdistrict": "甘泉街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.444165,
+        31.270463
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "石泉路派出所",
+    "address": "岚皋路40弄8号",
+    "phone": [
+      "52941493",
+      "52908510"
+    ],
+    "subdistrict": "石泉街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.433809,
+        31.253851
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "真如派出所",
+    "address": "真如南大街80号",
+    "phone": [
+      "22048500",
+      "62548810"
+    ],
+    "subdistrict": "真如镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.409569,
+        31.25374
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "白玉路派出所",
+    "address": "宁夏路208号",
+    "phone": [
+      "22048350",
+      "62448820"
+    ],
+    "subdistrict": "长风街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.426628,
+        31.241527
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "东新路派出所",
+    "address": "东新路135号",
+    "phone": [
+      "22048100",
+      "52905990"
+    ],
+    "subdistrict": "东新街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.432672,
+        31.247452
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "万里派出所",
+    "address": "新村路1299号",
+    "phone": [
+      "22048750",
+      "66770673",
+      "66770674"
+    ],
+    "subdistrict": "长征镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.420465,
+        31.272626
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "曹杨新村派出所",
+    "address": "梅岭支路85弄30号",
+    "phone": [
+      "22048650",
+      "62548480"
+    ],
+    "subdistrict": "曹杨街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.417287,
+        31.242021
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "中山北路派出所",
+    "address": "光新路三新村23号",
+    "phone": [
+      "22048150",
+      "62142490"
+    ],
+    "subdistrict": "宜川街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.439713,
+        31.258983
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "宜川新村派出所",
+    "address": "华阴路300号",
+    "phone": [
+      "22048200",
+      "56520220"
+    ],
+    "subdistrict": "宜川街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.447502,
+        31.26507
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "长风新村派出所",
+    "address": "怒江路131弄100号",
+    "phone": [
+      "22048450",
+      "62548530"
+    ],
+    "subdistrict": "长风街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.404794,
+        31.235835
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "真光路派出所",
+    "address": "真光路1798号",
+    "phone": [
+      "22048600",
+      "52782350"
+    ],
+    "subdistrict": "真如镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.392126,
+        31.258267
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "长征派出所",
+    "address": "梅岭北路1238号",
+    "phone": [
+      "22048550",
+      "62655550"
+    ],
+    "subdistrict": "长征镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.399684,
+        31.248536
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "桃浦派出所",
+    "address": "真南路1999号",
+    "phone": [
+      "22048700"
+    ],
+    "subdistrict": "桃浦镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.371504,
+        31.284462
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "普陀",
+    "name": "白丽路派出所",
+    "address": "红棉路301弄1号",
+    "phone": [
+      "22048750",
+      "66262370"
+    ],
+    "subdistrict": "桃浦镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.357204,
+        31.288294
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "平凉路派出所",
+    "address": "龙江路2号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "平凉街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76280"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.532635,
+        31.259836
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "定海路派出所",
+    "address": "河间路1500号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "定海街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76240"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.557157,
+        31.28346
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "长白新村派出所",
+    "address": "长白二村27号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "长白街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76140"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.550623,
+        31.299706
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "五角场镇派出所",
+    "address": "政立路65号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "五角场镇街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76180"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.526322,
+        31.313945
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "江浦路派出所",
+    "address": "辽源四村37号甲",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "江浦街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76200"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.517659,
+        31.277919
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "四平路派出所",
+    "address": "苏家屯路9号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "四平街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76100"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.516297,
+        31.280972
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "延吉新村派出所",
+    "address": "水丰路385号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "延吉街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76120"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.543694,
+        31.295019
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "大桥派出所",
+    "address": "宁国路19号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "大桥街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76300"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.546303,
+        31.26574
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "控江路派出所",
+    "address": "周家嘴路2985号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "控江街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76220"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.535352,
+        31.281342
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "五角场派出所",
+    "address": "国和路40号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "五角场街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76160"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.525583,
+        31.308533
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "杨浦",
+    "name": "殷行派出所",
+    "address": "包头路777号",
+    "phone": [
+      "65431000"
+    ],
+    "subdistrict": "殷行街道",
+    "type": "local station",
+    "phone_in_fact": [
+      "65431000-76260"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.544754,
+        31.329737
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "碧江路派出所",
+    "address": "兰坪路352弄1号",
+    "phone": [
+      "64309306",
+      "34051120"
+    ],
+    "subdistrict": "江川街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.423353,
+        31.014072
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "曹行派出所",
+    "address": "曹建路240号",
+    "phone": [
+      "64970088"
+    ],
+    "subdistrict": "梅陇镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.441937,
+        31.097771
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "陈行派出所",
+    "address": "陈南路46号",
+    "phone": [
+      "64294670"
+    ],
+    "subdistrict": "浦江镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.512139,
+        31.097683
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "杜行派出所",
+    "address": "鹤坡路99号",
+    "phone": [
+      "64110217"
+    ],
+    "subdistrict": "浦江镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.53553,
+        31.072432
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "金都派出所",
+    "address": "金都路3679弄8号",
+    "phone": [
+      "54425090"
+    ],
+    "subdistrict": "工业园区",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.3909,
+        31.083725
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "古美路派出所",
+    "address": "顾戴路368号",
+    "phone": [
+      "34130576",
+      "34160570"
+    ],
+    "subdistrict": "古美街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.408281,
+        31.152049
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "航华新村派出所",
+    "address": "航南路380号",
+    "phone": [
+      "64210549"
+    ],
+    "subdistrict": "龙柏街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.357349,
+        31.17333
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "虹桥派出所",
+    "address": "吴中路600号",
+    "phone": [
+      "64655110",
+      "64061000"
+    ],
+    "subdistrict": "虹桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.405363,
+        31.188408
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "华漕派出所",
+    "address": "华漕镇华美路183号",
+    "phone": [
+      "62201170"
+    ],
+    "subdistrict": "华漕镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.336327,
+        31.226648
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "华坪路派出所",
+    "address": "新闵路560号",
+    "phone": [
+      "64356172"
+    ],
+    "subdistrict": "江川街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.432323,
+        31.009423
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "纪王派出所",
+    "address": "纪翟路1555号",
+    "phone": [
+      "62960512"
+    ],
+    "subdistrict": "华漕镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.282064,
+        31.238625
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "龙柏新村派出所",
+    "address": "兰竹路2号",
+    "phone": [
+      "64029712"
+    ],
+    "subdistrict": "龙柏街道",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.368903,
+        31.181865
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "鲁汇派出所",
+    "address": "浦江镇望角楼",
+    "phone": [
+      "64911163"
+    ],
+    "subdistrict": "浦江镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.557972,
+        31.017639
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "马桥派出所",
+    "address": "北松路1986号",
+    "phone": [
+      "64091959"
+    ],
+    "subdistrict": "马桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.378407,
+        31.03751
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "梅陇派出所",
+    "address": "罗阳路333号",
+    "phone": [
+      "54397110"
+    ],
+    "subdistrict": "梅陇镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.41434,
+        31.130315
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "七宝派出所",
+    "address": "沪松公路600号",
+    "phone": [
+      "64615880"
+    ],
+    "subdistrict": "七宝镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.348314,
+        31.157706
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "塘湾派出所",
+    "address": "三新街78号",
+    "phone": [
+      "64500621"
+    ],
+    "subdistrict": "吴泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.449684,
+        31.061129
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "田园新村派出所",
+    "address": "金都路2889号",
+    "phone": [
+      "54429110"
+    ],
+    "subdistrict": "颛桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.406059,
+        31.090011
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "吴泾派出所",
+    "address": "剑川路80号",
+    "phone": [
+      "64505622"
+    ],
+    "subdistrict": "吴泾镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.479551,
+        31.049312
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "莘光派出所",
+    "address": "报春路505号",
+    "phone": [
+      "64122810"
+    ],
+    "subdistrict": "莘庄镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.39333,
+        31.129171
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "莘松派出所",
+    "address": "莘松一村12号",
+    "phone": [
+      "64921683"
+    ],
+    "subdistrict": "莘庄镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.379587,
+        31.114335
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "莘庄派出所",
+    "address": "七莘路789号",
+    "phone": [
+      "54530608",
+      "54530610"
+    ],
+    "subdistrict": "莘庄镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.376625,
+        31.126355
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "新镇派出所",
+    "address": "漕宝路3223号",
+    "phone": [
+      "64191267"
+    ],
+    "subdistrict": "七宝镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.362455,
+        31.163094
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "诸翟派出所",
+    "address": "华漕镇诸新路58号",
+    "phone": [
+      "62211021"
+    ],
+    "subdistrict": "华漕镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.299851,
+        31.21238
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "颛桥派出所",
+    "address": "颛桥镇中沟路99号",
+    "phone": [
+      "64896238"
+    ],
+    "subdistrict": "颛桥镇",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.402863,
+        31.068975
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "水上治安派出所",
+    "address": "闵行区河东路38号",
+    "phone": [
+      "64356972"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.437103,
+        31.007815
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "闵行开发区治安派出所",
+    "address": "中和路119号",
+    "phone": [
+      "64636621"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.387586,
+        31.011094
+      ]
+    },
+    "city_name": "上海市"
+  },
+  {
+    "district": "闵行",
+    "name": "华银路派出所",
+    "address": "华银路100号",
+    "phone": [
+      "64301161"
+    ],
+    "subdistrict": "",
+    "type": "local station",
+    "phone_in_fact": [
+      "64301161-2018"
+    ],
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        121.395536,
+        31.032384
+      ]
+    },
+    "city_name": "上海市"
+  }
+]

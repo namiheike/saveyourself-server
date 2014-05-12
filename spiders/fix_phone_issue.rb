@@ -21,8 +21,8 @@ cities.each do |city|
   # load from file
   content = MultiJson.load File.read("cities/#{city}.json")
 
-  content['shelters'].each_index do |i|
-    shelter = content['shelters'][i]
+  content.each_index do |i|
+    shelter = content[i]
 
     shelter['phone'] = shelter['phone'].to_s if not shelter['phone'].is_a? Array
 
