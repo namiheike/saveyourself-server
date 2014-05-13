@@ -13,8 +13,10 @@ require 'em-synchrony/em-http'
 class Server < Goliath::API
   use Goliath::Rack::Tracer             # log trace statistics
   use Goliath::Rack::DefaultMimeType    # cleanup accepted media types
-  use Goliath::Rack::Render, 'json'     # auto-negotiate response format
+  # use Goliath::Rack::Render, 'json'     # auto-negotiate response format
   use Goliath::Rack::Params             # parse & merge query and body parameters
+  # use Goliath::Rack::JSONP
+  # TODO use goliath's JSONP rack
   use Goliath::Rack::Heartbeat          # respond to /status with 200, OK (monitoring, etc)
 
   # If you are using Golaith version <=0.9.1 you need to Goliath::Rack::ValidationError
@@ -64,15 +66,17 @@ class Server < Goliath::API
 
   def response(env)
     address_component = geo_to_address(env.params['x'], env.params['y'])
+    response = {
+        address: "#{address_component['city']} #{address_component['district']} #{address_component['street']}",
+        nearest_shelters: get_nearest_shelters(address_component['city'], env.params['x'], env.params['y'])
+    }
+    response_str = "#{env.params['callback']}(#{MultiJson.dump response})"
     [
       200,
       {
-        'Content-Type' => 'application/json'
+        'Content-Type' => 'application/javascript'
       },
-      {
-        address: "#{address_component['city']} #{address_component['district']} #{address_component['street']}",
-        nearest_shelters: get_nearest_shelters(address_component['city'], env.params['x'], env.params['y'])
-      }
+      response_str
     ]
   end
 end
