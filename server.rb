@@ -45,7 +45,6 @@ class Server < Goliath::API
       output: 'json',
       src: 'OakStaffStudio|SaveYourSelf'
     }
-    logger.info api_params
     (MultiJson.load (EM::HttpRequest.new(api_url).get :query => api_params).response)['result']['addressComponent']
   end
 
