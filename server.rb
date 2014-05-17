@@ -23,12 +23,12 @@ class Server < Goliath::API
   # to prevent the request from remaining open after an error occurs
   #use Goliath::Rack::ValidationError
   use Goliath::Rack::Validation::RequestMethod, %w(GET) # allow GET requests only
-  use Goliath::Rack::Validation::RequiredParam, {key: 'x'}
-  use Goliath::Rack::Validation::RequiredParam, {key: 'y'}
+  use Goliath::Rack::Validation::RequiredParam, {key: 'longitude'}
+  use Goliath::Rack::Validation::RequiredParam, {key: 'latitude'}
 
   # plugin Goliath::Plugin::Latency       # output reactor latency every second
 
-  def geo_to_address(x, y)
+  def geo_to_address(longitude, latitude)
     # uri = URI('http://api.map.baidu.com/geocoder/v2/')
     # params = {
     #   ak: '8HC4SzAudccqEF0Qj0bs8Bb4',
@@ -38,19 +38,18 @@ class Server < Goliath::API
     # }
     # THIS API GOT 101 ERROR
 
-    # TODO x, y -> lon, lat
-
     api_url = 'http://api.map.baidu.com/geocoder'
     api_params = {
       coordtype: 'wgs84ll',
-      location: env.params['x'] + ',' + env.params['y'],
+      location: latitude + ',' + longitude, # WARNING: fuxxing baidu use (lat, lon) instead of (lon, lat)
       output: 'json',
       src: 'OakStaffStudio|SaveYourSelf'
     }
+    logger.info api_params
     (MultiJson.load (EM::HttpRequest.new(api_url).get :query => api_params).response)['result']['addressComponent']
   end
 
-  def get_nearest_shelters(city, x, y)
+  def get_nearest_shelters(city, longitude, latitude)
     moped[:shelters].find({
       city_name: city,
       location: {
@@ -65,10 +64,10 @@ class Server < Goliath::API
   end
 
   def response(env)
-    address_component = geo_to_address(env.params['x'], env.params['y'])
+    address_component = geo_to_address(env.params['longitude'], env.params['latitude'])
     response = {
         address: "#{address_component['city']} #{address_component['district']} #{address_component['street']}",
-        nearest_shelters: get_nearest_shelters(address_component['city'], env.params['x'], env.params['y'])
+        nearest_shelters: get_nearest_shelters(address_component['city'], env.params['longitude'], env.params['latitude'])
     }
     response_str = "#{env.params['callback']}(#{MultiJson.dump response})"
     [
