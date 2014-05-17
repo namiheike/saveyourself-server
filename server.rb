@@ -55,7 +55,7 @@ class Server < Goliath::API
         "$near" => {
           "$geometry" => {
             type: "Point",
-            coordinates: [1,1]
+            coordinates: [longitude,latitude]
           }
         }
       }
