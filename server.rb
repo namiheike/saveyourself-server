@@ -37,6 +37,7 @@ class Server < Goliath::API
     #   output: 'json'
     # }
     # THIS API GOT 101 ERROR
+    # TODO using this API maybe?
 
     api_url = 'http://api.map.baidu.com/geocoder'
     api_params = {
